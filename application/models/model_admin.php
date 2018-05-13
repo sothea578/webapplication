@@ -6,21 +6,9 @@ class model_admin extends CI_Model{
         $this->load->database();
     }
 
-    public function login_valid($username, $password) {
-        $q = $this->db->where(['username' => $username, 'password' => $password])
-                ->get('admin');
-        if ($q->num_rows) {
-                
-            return $q->row()->id;
-            //return TRUE;
-        } else {
-            return FALSE;
-        }
-    }
-
-    function login_admin($data) {
+    function login($data) {
         $query = $this->db->get_where('admin', $data);
-        return $query->result('array');
+        return $query->first_row('array');
     }
 
 }

@@ -11,18 +11,22 @@ class Categories extends CI_Controller {
     }
 
     public function show_category_data(){
-    	$this->load->model('category');
-        $data['cat']=$this->category->show_cat_data();
-        $this->load->view('admin/header');
-        $this->load->view('admin/category_data',$data);
-        $this->load->view('admin/footer');
+        if($this->session->userdata('admin_id')){
+    	    $this->load->model('category');
+            $data['cat']=$this->category->show_cat_data();
+            $this->load->view('admin/header');
+            $this->load->view('admin/category_data',$data);
+            $this->load->view('admin/footer');
+        } else redirect('Admin/login');
     }
 
     public function new_category($msg = NULL){
-        $data['msg'] = $msg;
-        $this->load->view('admin/header');
-        $this->load->view('admin/new_category', $data);
-        $this->load->view('admin/footer');
+        if($this->session->userdata('admin_id')){
+            $data['msg'] = $msg;
+            $this->load->view('admin/header');
+            $this->load->view('admin/new_category', $data);
+            $this->load->view('admin/footer');
+        } else redirect('Admin/login');
     }
 
     public function create_category(){

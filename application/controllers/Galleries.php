@@ -22,22 +22,26 @@ class Galleries extends CI_Controller {
     }
 
     public function show_gallery_data(){
-        $this->load->model('gallery');
-        $data['result']=$this->gallery->show_gal_data();
-        $this->load->view('admin/header');
-        $this->load->view('admin/gallery_data',$data);
-        $this->load->view('admin/footer');
+        if($this->session->userdata('admin_id')){
+            $this->load->model('gallery');
+            $data['result']=$this->gallery->show_gal_data();
+            $this->load->view('admin/header');
+            $this->load->view('admin/gallery_data',$data);
+            $this->load->view('admin/footer');
+        } else redirect('Admin/login');
     }
 
     public function new_gallery($msg = NULL){
-        $data['msg'] = $msg;
-        $this->load->model('category');
-        $data['cat']=$this->category->get_cat();
-        $this->load->model('destination');
-        $data['des']=$this->destination->get_des();
-        $this->load->view('admin/header');
-        $this->load->view('admin/new_gallery', $data, array('error' => ' ' ));
-        $this->load->view('admin/footer');
+        if($this->session->userdata('admin_id')){
+            $data['msg'] = $msg;
+            $this->load->model('category');
+            $data['cat']=$this->category->get_cat();
+            $this->load->model('destination');
+            $data['des']=$this->destination->get_des();
+            $this->load->view('admin/header');
+            $this->load->view('admin/new_gallery', $data, array('error' => ' ' ));
+            $this->load->view('admin/footer');
+        } else redirect('Admin/login');
     }
 
     public function create_gallery(){

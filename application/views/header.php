@@ -110,8 +110,8 @@ $(window).load(function() {
 <header><div class="logo_wrapper log"><a href="/webapplication/index.php/Users/home" class="logo"><img src="/webapplication/assets/bootstraps/images/logo.png" alt="" height="50" width="100" style="margin-bottom: 20 "></a></div></header>
 <div class="top2 clearfix">
 <div class="search-form-wrapper clearfix">
-<form id="search-form" action="search.php" method="GET" accept-charset="utf-8" class="navbar-form" >
-	<input type="text" name="s" value='Search' onBlur="if(this.value=='') this.value='Search'" onFocus="if(this.value =='Search' ) this.value=''">
+<form id="search-form" action="/webapplication/index.php/Users/search" method="GET" accept-charset="utf-8" class="navbar-form" >
+	<input type="text" name="s" value='' placeholder="Search">
 	<a href="#" onClick="document.getElementById('search-form').submit()"></a>
 </form>	
 </div>	
@@ -127,7 +127,7 @@ $(window).load(function() {
 			<ul class="nav sf-menu clearfix">
 				<li class="active"><a href="/webapplication/index.php/Users/home">home</a></li>
 				<li><a href="/webapplication/index.php/Users/about">about</a></li>
-				<li><a href="/webapplication/index.php/Users/hotTour">hot tours</a></li>
+				<!-- <li><a href="/webapplication/index.php/Users/hotTour">hot tours</a></li> -->
 				<li class="sub-menu sub-menu-1"><a href="/webapplication/index.php/Destinations/showDestination">destinations</a>
 					<ul>
 						<?php foreach($result as $row): ?>

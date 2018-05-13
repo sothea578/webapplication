@@ -21,12 +21,14 @@ class Destinations extends CI_Controller {
     }
 
     public function new_destination($msg = NULL){
-        $data['msg'] = $msg;
-        $this->load->model('category');
-        $data['cat']=$this->category->get_cat();
-        $this->load->view('admin/header');
-        $this->load->view('admin/new_destination', $data, array('error' => ' ' ));
-        $this->load->view('admin/footer');
+        if($this->session->userdata('admin_id')){
+            $data['msg'] = $msg;
+            $this->load->model('category');
+            $data['cat']=$this->category->get_cat();
+            $this->load->view('admin/header');
+            $this->load->view('admin/new_destination', $data, array('error' => ' ' ));
+            $this->load->view('admin/footer');
+        } else redirect('Admin/login');
     }
 
     public function create_destination(){
@@ -69,11 +71,13 @@ class Destinations extends CI_Controller {
     }
 
     public function show_destination_data(){
-        $this->load->model('destination');
-        $data['result']=$this->destination->show_desInfo();
-        $this->load->view('admin/header');
-        $this->load->view('admin/destination_data',$data);
-        $this->load->view('admin/footer');
+        if($this->session->userdata('admin_id')){
+            $this->load->model('destination');
+            $data['result']=$this->destination->show_desInfo();
+            $this->load->view('admin/header');
+            $this->load->view('admin/destination_data',$data);
+            $this->load->view('admin/footer');
+        } else redirect('Admin/login');
     }
 
     public function update_destination(){

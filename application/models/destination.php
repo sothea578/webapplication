@@ -29,6 +29,14 @@ class destination extends CI_Model {
       return $query->result();
     }
 
+    public function get_search_destination($name){
+      $this->db->select("des_id, des_name, des_pic, des_detail, des_price, id_cat");
+      $this->db->from('destination');
+      $this->db->like('des_name',$name);
+      $query = $this->db->get();
+      return $query->result();
+    }
+
     public function show_desInfo(){
       $this->db->
       select("a.des_id, a.des_name, a.des_pic, a.des_detail, a.des_price, a.id_cat, c.cat_id, c.cat_name")

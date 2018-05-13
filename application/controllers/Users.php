@@ -44,8 +44,11 @@ class Users extends CI_Controller {
 	}
 
 	public function search(){
+		$name = $this->input->get('s');
+		$this->load->model('destination');
+		$data['result'] = $this->destination->get_search_destination($name);
 		$this->category();
-		$this->load->view('search');
+		$this->load->view('search', $data);
 		$this->load->view('footer');
 	}
 
@@ -56,10 +59,14 @@ class Users extends CI_Controller {
 	}
 
 	public function register_login($msg = NULL){
-		$data['msg'] = $msg;
-		$this->category();
-		$this->load->view('register_login', $data);
-		//$this->load->view('footer');
+		if ($this->session->userdata('user_id')){
+			redirect('Users/home');
+		} else {
+			$data['msg'] = $msg;
+			$this->category();
+			$this->load->view('register_login', $data);
+			//$this->load->view('footer');
+		}
 	}
 
 	public function personal_info(){
@@ -116,7 +123,7 @@ class Users extends CI_Controller {
         if (!$this->permission()) {
             redirect('Users/home');
         }
-        $this->session->sess_destroy();
+        $this->session->unset_userdata('user_id');
         redirect('Users/home');
     }
 

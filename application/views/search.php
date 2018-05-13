@@ -15,7 +15,11 @@
 <div class="span12">
 	
 <h1>Search Results:</h1>	
-
+<?php foreach ($result as $row) : ?>
+<div>
+	<label><a class="link" href="/webapplication/index.php/Destinations/destination_detail?id=<?php echo $row->des_id; ?>"><h5><?php echo $row->des_name ?></h5></a></label>
+</div>
+<?php endforeach; ?>
 <div id="search-results"></div>
 
 </div>

@@ -12,9 +12,11 @@ class Admin extends CI_Controller {
     }
 
 	public function main(){
-		$this->load->view('admin/header');
-		$this->load->view('admin/main');
-		$this->load->view('admin/footer');
+		if($this->session->userdata('admin_id')){
+			$this->load->view('admin/header');
+			$this->load->view('admin/main');
+			$this->load->view('admin/footer');
+		} else redirect('admin/login');
 	}
 
 	public function login(){
@@ -22,25 +24,30 @@ class Admin extends CI_Controller {
 	}
 
 	public function checkLogin(){
-		$username = $this->input->post('username');
-        $password = $this->input->post('password');
- 		$this->load->model('model_admin');
-        $login_id = $this->model_admin->login_valid($username, $password);
-        if ($login_id) {
-            $this->session->set_userdata('admin_id', $login_id);
-            redirect(base_url('Admin/main'));
-        } else {
-                $this->session->set_flashdata('login_failed', 'Invalid Username/Password');
-                redirect('Admin/login');
+		$this->load->model('model_admin');
+		$data['error'] = 0;
+        if (!is_null($_POST)) {
+            $data = [
+                'username' => $this->input->post('admin_username'), //$_POST['admin_username'],
+                'password' => $this->input->post('admin_password') //$_POST['admin_password']
+            ];
+            $admin = $this->model_admin->login($data);
+            if (!$admin) {
+                $data['error'] = 1;
+            } else {
+                $this->session->set_userdata('admin_id', $admin['admin_id']);
+                redirect('Admin/main');
+            }
         }
+        redirect('Admin/login');
 	}
 
 	public function logout(){
         if (!$this->permission()) {
-            redirect('Admin/login');
+            redirect('Admin/main');
         }
-        $this->session->sess_destroy();
-        redirect('Admin/login','refresh');
+        $this->session->unset_userdata('admin_id');
+        redirect('Admin/login');
     }
 
 	public function register(){
@@ -52,11 +59,13 @@ class Admin extends CI_Controller {
 	}
 
 	public function user_data(){
-		$this->load->model('user');
-        $data['result']=$this->user->show_user();
-        $this->load->view('admin/header');
-        $this->load->view('admin/user_data',$data);
-        $this->load->view('admin/footer');
+		if($this->session->userdata('admin_id')){
+			$this->load->model('user');
+        	$data['result']=$this->user->show_user();
+        	$this->load->view('admin/header');
+        	$this->load->view('admin/user_data',$data);
+        	$this->load->view('admin/footer');
+        } else redirect('Admin/login');
 	}
 
 	public function user_detail(){
@@ -77,11 +86,13 @@ class Admin extends CI_Controller {
 	}
 
 	public function bookTour_user_info(){
-		$this->load->model('booktour');
-        $data['result']=$this->booktour->show_user_bookTour();
-        $this->load->view('admin/header');
-        $this->load->view('admin/bookTour_user_info',$data);
-        $this->load->view('admin/footer');
+		if($this->session->userdata('admin_id')){
+			$this->load->model('booktour');
+        	$data['result']=$this->booktour->show_user_bookTour();
+        	$this->load->view('admin/header');
+        	$this->load->view('admin/bookTour_user_info',$data);
+        	$this->load->view('admin/footer');
+        } else redirect('Admin/login');
 	}
 
 	public function bookTour_user_detail(){
