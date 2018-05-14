@@ -27,6 +27,7 @@
                   <th>Category</th>
                   <th>Destination</th>
                   <th>Booking date</th>
+                  <th>Tour code</th>
                   <th>Status</th>
                   <th>Option</th>
                 </tr>
@@ -44,6 +45,7 @@
                   <th>Category</th>
                   <th>Destination</th>
                   <th>Booking date</th>
+                  <th>Tour code</th>
                   <th>Status</th>
                   <th>Option</th>
                 </tr>
@@ -62,6 +64,7 @@
                   <td><?php echo $row->cat_name ?></td>
                   <td><?php echo $row->des_name ?></td>
                   <td><?php echo $row->booking_date ?></td>
+                  <td><?php echo $row->tour_code ?></td>
                   <td><?php echo $row->status ?></td>
                   <td>
                     <a href="/webapplication/index.php/Admin/bookTour_user_detail?id=<?php echo($row->id_bookTour)?>" class="btn btn-info">Update</a></br></br>

@@ -64,6 +64,23 @@
     			<input type="date" name="booking_date" id="booking_date" class="col-xs-10 col-sm-5" value="<?php echo $row->booking_date; ?>">
        	</div>
 
+        <div class="form-group">
+        <label class="col-sm-3 control-label no-padding-right" for="form-tour-code"> Tour code: </label>
+          <div class="col-sm-9">
+            <select class="col-xs-10 col-sm-5" name="tour_code" value="<?php echo set_value('tour_code');?>" id="tour_code">
+              <?php foreach ($tour as $r) : ?>
+                <option class="form-tour-code form-control"><?php echo $r->tour_code ?></option>
+              <?php endforeach; ?>
+            </select>
+          </div>
+        <div class="col-sm-5">
+        <label>Tour code list:</label>
+          <?php foreach ($tour as $r) : ?>
+            <h6><?php echo $r->tour_type_id.'. '.$r->tour_code.':'.$r->des_name ?></h6>
+          <?php endforeach; ?>
+        </div>
+        </div>
+
        	<div class="form-group">
        		<label class="col-sm-3 control-label no-padding-right" for="form-booking-status"> Status: </label>
     		<div class="col-sm-9">

@@ -27,13 +27,13 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+        <!--<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
           <a class="nav-link" href="/webapplication/index.php/Admin/main/">
             <i class="fa fa-fw fa-dashboard"></i>
             <span class="nav-link-text">Dashboard</span>
           </a>
         </li>
-        <!-- <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
           <a class="nav-link" href="/webapplication/index.php/admin/mainpage/chart/">
             <i class="fa fa-fw fa-area-chart"></i>
             <span class="nav-link-text">Charts</span>
@@ -93,6 +93,9 @@
             </li>
             <li>
               <a href="/webapplication/index.php/Destinations/show_destination_data/">Destination</a>
+            </li>
+            <li>
+              <a href="/webapplication/index.php/Tour_types/show_tour_type_data/">Tour type</a>
             </li>
           </ul>
         </li>

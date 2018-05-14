@@ -41,6 +41,7 @@
           <thead>
             <tr>
               <th>ID Book tour</th>
+              <th>Tour code</th>
               <th>Category name</th>
               <th>Destination name</th>
               <th>Destination price</th>
@@ -52,6 +53,7 @@
             <?php foreach($book as $r): ?>
             <tr>
               <th><?php echo $r->id_bookTour ?></th>
+              <th><?php echo $r->tour_code ?></th>
               <th><?php echo $r->cat_name ?></th>
               <th><?php echo $r->des_name ?></th>
               <th><?php echo $r->des_price ?></th>

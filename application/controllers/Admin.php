@@ -36,7 +36,7 @@ class Admin extends CI_Controller {
                 $data['error'] = 1;
             } else {
                 $this->session->set_userdata('admin_id', $admin['admin_id']);
-                redirect('Admin/main');
+                redirect('Admin/user_data');
             }
         }
         redirect('Admin/login');
@@ -44,7 +44,7 @@ class Admin extends CI_Controller {
 
 	public function logout(){
         if (!$this->permission()) {
-            redirect('Admin/main');
+            redirect('Admin/user_data');
         }
         $this->session->unset_userdata('admin_id');
         redirect('Admin/login');
@@ -99,6 +99,8 @@ class Admin extends CI_Controller {
 		$id =intval($this->input->get('id'));
 		$this->load->model('booktour');
 		$data['result']=$this->booktour->show_user_bookTour_detail($id);
+		$this->load->model('tour_type');
+        $data['tour']=$this->tour_type->show_tour_type_data();
 		$this->load->view('admin/header');
         $this->load->view('admin/bookTour_detail',$data);
         $this->load->view('admin/footer');
