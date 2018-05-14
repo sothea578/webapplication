@@ -17,23 +17,11 @@
 <div class="span3">
 	<div class="bot1_title">Destinations</div>
 	<ul class="ul0">
-	  <li><a href="#">Nam elit magna, hendrerit</a></li>
-	  <li><a href="#">Quisque nullatibulum libero</a></li>
-	  <li><a href="#">Scelerisque eget, malesuada at</a></li>
-	  <li><a href="#">Vivamus eget niiam cursus leo</a></li>
-	  <li><a href="#">Nulla facilisinean nec eros</a></li>
+	  	<?php foreach($result as $row) : ?>
+  		<li><a href="#"><?php echo $row->cat_name ?></a></li>	
+		<?php endforeach; ?>
 	</ul>
 </div>
-<div class="span3">
-	<div class="bot1_title">Links</div>
-	<ul class="ul0">
-	  <li><a href="#">Nam elit magna, hendrerit</a></li>
-	  <li><a href="#">Quisque nullatibulum libero</a></li>
-	  <li><a href="#">Scelerisque eget, malesuada at</a></li>
-	  <li><a href="#">Vivamus eget niiam cursus leo</a></li>
-	  <li><a href="#">Nulla facilisinean nec eros</a></li>
-	</ul>
-</div>	
 <div class="span3">
 	<div class="bot1_title">Contacts</div>
 	<div class="bot1_txt1">

@@ -16,6 +16,8 @@ class BookingTour extends CI_Controller {
         $aObj = new Users();  //create object 
         $aObj->category(); //call function
         $this->load->view('book_tour', $data);
+        $foot = new Users();  //create object 
+        $foot->footer(); //call function
         $this->load->view('footer');
     }
 

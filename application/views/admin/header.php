@@ -45,6 +45,12 @@
             <span class="nav-link-text">User data</span>
           </a>
         </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Contact data">
+          <a class="nav-link" href="/webapplication/index.php/Contacts/contact_data/">
+            <i class="fa fa-fw fa-table"></i>
+            <span class="nav-link-text">Contact data</span>
+          </a>
+        </li>
         <!-- <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
             <i class="fa fa-fw fa-wrench"></i>
@@ -90,12 +96,12 @@
             </li>
           </ul>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
+        <!--<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
           <a class="nav-link" href="#">
             <i class="fa fa-fw fa-link"></i>
             <span class="nav-link-text">Link</span>
           </a>
-        </li>
+        </li>-->
       </ul>
       <ul class="navbar-nav sidenav-toggler">
         <li class="nav-item">

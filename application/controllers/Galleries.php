@@ -18,7 +18,8 @@ class Galleries extends CI_Controller {
         $aObj = new Users();  //create object 
         $aObj->category(); //call function
         $this->load->view('gallery',$data);
-        $this->load->view('footer');
+        $foot = new Users();  //create object 
+        $foot->footer(); //call function
     }
 
     public function show_gallery_data(){

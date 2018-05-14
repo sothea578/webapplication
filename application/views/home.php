@@ -33,8 +33,8 @@
 <div class="slogan1_inner">
 <div class="txt1">Start Your Trip With Us</div>	
 <div class="txt2">Popular destinations and greate customer service</div>
-<div class="txt3">Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetuer adipiscing elit. </div>
-<div class="txt4 clearfix"><a href="#" class="find1">Find the Tour</a><a href="#" class="request1">Request Estimate</a></div>
+<div class="txt3">Our global teams of experts handpick and curate the best experiences geared towards intrepid travelers as well as those vacationing for the first time. We offer awesome deals from trusted local tour operators and travel suppliers around the globe, and you can book with ease anywhere, anytime - from your laptop, phone, or our free mobile app. </div>
+<div class="txt4 clearfix"><a href="/webapplication/index.php/Destinations/showDestination/" class="find1">Find the Tour</a><a href="/webapplication/index.php/Contacts/contact_us" class="request1">Contact Us</a></div>
 </div>	
 </div>	
 </div>	
@@ -46,103 +46,30 @@
 <div class="row">
 <div class="span12">
 <div id="slider3">
-<div class="slider3-title">Popular Destinations</div>	
+<div class="slider3-title">Popular Destinations Picture</div>	
 <a class="prev3" href="#"></a>
 <a class="next3" href="#"></a>	
 <div class="carousel-box row">
 	<div class="inner span12">			
 		<div class="carousel main">
 			<ul>
+				<?php foreach ($result as $row) : ?>
 				<li>
 					<div class="thumb-carousel banner1">
 						<div class="thumbnail clearfix">
-							<a href="#">
+							<a>
 								<figure>
-									<img src="http://via.placeholder.com/277x277" alt="">
+									<img src="/webapplication/public/gal_img/<?php echo $row->picture; ?>" alt="">
 									<em></em>
 								</figure>
 								<div class="caption">
-									Maldives
+									<?php echo $row->gal_name; ?>
 								</div>								
 							</a>								
 						</div>
 					</div>
 				</li>
-				<li>
-					<div class="thumb-carousel banner1">
-						<div class="thumbnail clearfix">
-							<a href="#">
-								<figure>
-									<img src="http://via.placeholder.com/277x277" alt="">
-									<em></em>
-								</figure>
-								<div class="caption">
-									Tenerife
-								</div>								
-							</a>								
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="thumb-carousel banner1">
-						<div class="thumbnail clearfix">
-							<a href="#">
-								<figure>
-									<img src="http://via.placeholder.com/277x277" alt="">
-									<em></em>
-								</figure>
-								<div class="caption">
-									London
-								</div>								
-							</a>								
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="thumb-carousel banner1">
-						<div class="thumbnail clearfix">
-							<a href="#">
-								<figure>
-									<img src="http://via.placeholder.com/277x277" alt="">
-									<em></em>
-								</figure>
-								<div class="caption">
-									Egypt
-								</div>								
-							</a>								
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="thumb-carousel banner1">
-						<div class="thumbnail clearfix">
-							<a href="#">
-								<figure>
-									<img src="http://via.placeholder.com/277x277" alt="">
-									<em></em>
-								</figure>
-								<div class="caption">
-									Greece
-								</div>								
-							</a>								
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="thumb-carousel banner1">
-						<div class="thumbnail clearfix">
-							<a href="#">
-								<figure>
-									<img src="http://via.placeholder.com/277x277" alt="">
-									<em></em>
-								</figure>
-								<div class="caption">
-									Sri Lanka
-								</div>								
-							</a>								
-						</div>
-					</div>
-				</li>																								
+				<?php endforeach; ?>	
 			</ul>
 		</div>
 	</div>
@@ -180,12 +107,9 @@
 <h2>Services</h2>
 
 <ul class="ul1">
-  <li><a href="#">Tour reservation</a></li>
-  <li><a href="#">Insurance</a></li>
-  <li><a href="#">Tickets online</a></li>
-  <li><a href="#">Hotel booking</a></li>
-  <li><a href="#">Consultation</a></li>
-  <li><a href="#">Transfer</a></li>		            		      	      			      
+  	<?php foreach($service as $r) : ?>
+  		<li><a href="#"><?php echo $r->serv_type ?></a></li>	
+	<?php endforeach; ?>		            		      	      			      
 </ul>
 
 </div>	

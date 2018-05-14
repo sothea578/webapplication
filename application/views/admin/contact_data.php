@@ -10,40 +10,30 @@
       <!-- Example DataTables Card-->
       <div class="card mb-3">
         <div class="card-header">
-          <i class="fa fa-table"></i> All user book tour data table</div>
+          <i class="fa fa-table"></i> All contact user detail </div>
         <div class="card-body">
           <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
               <thead>
                 <tr>
-                  <th>Book ID</th>
-                  <th>User ID</th>
-                  <th>Username</th>
+                  <th>Contact ID</th>
                   <th>Full name</th>
-                  <th>Sex</th>
                   <th>Email</th>
                   <th>Phone number</th>
-                  <th>Address</th>
-                  <th>Category</th>
-                  <th>Destination</th>
-                  <th>Booking date</th>
+                  <th>Messange</th>
+                  <th>Contact date</th>
                   <th>Status</th>
                   <th>Option</th>
                 </tr>
               </thead>
               <tfoot>
                 <tr>
-                  <th>Book ID</th>
-                  <th>User ID</th>
-                  <th>Username</th>
+                  <th>Contact ID</th>
                   <th>Full name</th>
-                  <th>Sex</th>
                   <th>Email</th>
                   <th>Phone number</th>
-                  <th>Address</th>
-                  <th>Category</th>
-                  <th>Destination</th>
-                  <th>Booking date</th>
+                  <th>Messange</th>
+                  <th>Contact date</th>
                   <th>Status</th>
                   <th>Option</th>
                 </tr>
@@ -51,21 +41,16 @@
               <tbody>
                 <?php foreach($result as $row): ?>
                 <tr>
-                  <td><?php echo $row->id_bookTour ?></td>
-                  <td><?php echo $row->user_id ?></td>
-                  <td><?php echo $row->user_name ?></td>
+                  <td><?php echo $row->contact_id ?></td>
                   <td><?php echo $row->full_name ?></td>
-                  <td><?php echo $row->sex ?></td>
                   <td><?php echo $row->email ?></td>
-                  <td><?php echo $row->phone_number ?></td>
-                  <td><?php echo $row->address ?></td>
-                  <td><?php echo $row->cat_name ?></td>
-                  <td><?php echo $row->des_name ?></td>
-                  <td><?php echo $row->booking_date ?></td>
+                  <td><?php echo $row->phone_num ?></td>
+                  <td><?php echo $row->massage ?></td>
+                  <td><?php echo $row->contact_date ?></td>
                   <td><?php echo $row->status ?></td>
                   <td>
-                    <a href="/webapplication/index.php/Admin/bookTour_user_detail?id=<?php echo($row->id_bookTour)?>" class="btn btn-info">Update</a></br></br>
-                    <a href="/webapplication/index.php/BookingTour/delete_book_tour?id=<?php echo($row->id_bookTour)?>" class="btn btn-danger">Delete</a>
+                    <a href="/webapplication/index.php/Contacts/contact_detail?id=<?php echo($row->contact_id)?>" class="btn btn-info">Update</a><br/><br/>
+                    <a href="/webapplication/index.php/Contacts/delete_contact?id=<?php echo($row->contact_id)?>" class="btn btn-danger">Delete</a>
                   </td>
                 </tr>
                 <?php endforeach; ?>

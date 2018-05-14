@@ -136,8 +136,8 @@ $(window).load(function() {
 					</ul>
 				</li>
 				<li><a href="/webapplication/index.php/Galleries/showGallery">gallery</a></li>
-				<li><a href="/webapplication/index.php/Users/service">services</a></li>								
-				<li><a href="/webapplication/index.php/Users/contact_us">contacts</a></li>
+				<li><a href="/webapplication/index.php/Services/service">services</a></li>								
+				<li><a href="/webapplication/index.php/Contacts/contact_us">contacts</a></li>
 				<?php if ($this->session->userdata('user_id')) { ?>
 				<li><a href="/webapplication/index.php/Users/personal_info"><img src="/webapplication/assets/bootstraps/images/user.png" alt="" height="20" width="30" style="margin-top: 20"></a></li>
 				<?php } else { ?>

@@ -19,28 +19,34 @@ class Users extends CI_Controller {
         $this->load->view('header',$data);
 	}
 
+	public function footer(){
+		$this->load->model('category');
+        $data['result']=$this->category->get_cat();
+        $this->load->view('footer',$data);
+	}
+
 	public function home(){
+		$this->load->model('gallery');
+		$data['result'] = $this->gallery->get_gallery();
+		$this->load->model('service');
+        $data['service']=$this->service->show_service_data();
 		$this->category();
-		$this->load->view('home');
-		$this->load->view('footer');
+		$this->load->view('home', $data);
+		$this->footer();
 	}
 
 	public function about(){
+		$this->load->model('service');
+        $data['result']=$this->service->show_service_data();
 		$this->category();
-		$this->load->view('about_us');
-		$this->load->view('footer');
-	}
-
-	public function contact_us(){
-		$this->category();
-		$this->load->view('contact_us');
-		$this->load->view('footer');
+		$this->load->view('about_us', $data);
+		$this->footer();
 	}
 
 	public function hotTour(){
 		$this->category();
 		$this->load->view('hot_tour');
-		$this->load->view('footer');
+		$this->footer();
 	}
 
 	public function search(){
@@ -49,13 +55,7 @@ class Users extends CI_Controller {
 		$data['result'] = $this->destination->get_search_destination($name);
 		$this->category();
 		$this->load->view('search', $data);
-		$this->load->view('footer');
-	}
-
-	public function service(){
-		$this->category();
-		$this->load->view('service');
-		$this->load->view('footer');
+		$this->footer();
 	}
 
 	public function register_login($msg = NULL){
@@ -78,7 +78,7 @@ class Users extends CI_Controller {
         	$data['book']=$this->booktour->ger_booktour_info_this_user($seid);
         	$this->category();
         	$this->load->view('personal_info',$data);
-        	$this->load->view('footer');
+        	$this->footer();
 		} else redirect('Users/home');
 	}
 
@@ -88,7 +88,7 @@ class Users extends CI_Controller {
 		$data['result']=$this->user->get_user($id);
 		$this->category();
         $this->load->view('edit_personal_data',$data);
-        $this->load->view('footer');
+        $this->footer();
 	}
 
 	public function update_personal_info(){

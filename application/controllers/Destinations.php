@@ -17,7 +17,8 @@ class Destinations extends CI_Controller {
         $aObj = new Users();  //create object 
         $aObj->category(); //call function
         $this->load->view('destination',$data);
-        $this->load->view('footer');
+        $foot = new Users();  //create object 
+        $foot->footer(); //call function
     }
 
     public function new_destination($msg = NULL){
@@ -45,6 +46,8 @@ class Destinations extends CI_Controller {
         $aObj->category(); //call function
         $data['result']=$this->destination->get_desDetail($id);
         $this->load->view('destination_detail',$data);
+        $foot = new Users();  //create object 
+        $foot->footer(); //call function
         $this->load->view('footer');
 	}
 
@@ -56,6 +59,8 @@ class Destinations extends CI_Controller {
         $aObj = new Users();  //create object 
         $aObj->category(); //call function
         $this->load->view('destination',$data);
+        $foot = new Users();  //create object 
+        $foot->footer(); //call function
         $this->load->view('footer');
     }
 

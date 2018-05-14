@@ -3,7 +3,7 @@
 <div class="slider_bot">
 <div class="page_title"></div>
 <div class="breadcrumbs1">
-<div class="breadcrumbs1_inner"><a href="/webapplication/index.php/Users/home">Home Page</a>&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Booking tour information</div>	
+<div class="breadcrumbs1_inner"><a href="/webapplication/index.php/Users/home/">Home Page</a>&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Booking tour information</div>	
 </div>
 </div>
 </div>

@@ -1,9 +1,8 @@
 <div id="slider_wrapper">
-<img src="/webapplication/assets/bootstraps/images/grad2.png" alt="" class="grad2">
 <div class="slider_bot">
 <div class="page_title">Gallery</div>
 <div class="breadcrumbs1">
-<div class="breadcrumbs1_inner"><a href="index.html">Home Page</a>&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Gallery</div>	
+<div class="breadcrumbs1_inner"><a href="/webapplication/index.php/Users/home/">Home Page</a>&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Gallery</div>	
 </div>
 </div>
 </div>
@@ -27,16 +26,15 @@
     <li class="span3 isotope-element isotope-filter1">
 		<div class="thumb-isotope">
 			<div class="thumbnail clearfix">
-				<a>
+				<a href="/webapplication/public/gal_img/<?php echo $row->picture; ?>">
 					<figure>
-						<img src="/webapplication/public/gal_img/<?php echo $row->picture; ?>" alt=""><em></em>
+						<img src="/webapplication/public/gal_img/<?php echo $row->picture; ?>" alt="" style="width: 270px; height: 270px;"><em></em>
 					</figure>
 					<div class="caption">
 						<div class="txt1">
 							<?php echo $row->gal_name; ?></h3>
         				</div>
 					</div>
-					
 				</a>				
 			</div>
 		</div>

@@ -3,7 +3,7 @@
 <div class="slider_bot">
 <div class="page_title">About Us</div>
 <div class="breadcrumbs1">
-<div class="breadcrumbs1_inner"><a href="index.html">Home Page</a>&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;About Us</div>	
+<div class="breadcrumbs1_inner"><a href="/webapplication/index.php/Users/home/">Home Page</a>&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;About Us</div>	
 </div>
 </div>
 </div>
@@ -36,7 +36,7 @@
 </div>
 <div class="span4">
 	
-<h2>Testimonials</h2>
+<h2>Our receptionist</h2>
 
 <div class="testimonial1">
 <div class="txt1">
@@ -44,15 +44,6 @@
 </div>
 <div class="txt2">
 	<span>Alex Williams</span><br><a href="#">http://demolink.org</a>
-</div>	
-</div>
-
-<div class="testimonial1">
-<div class="txt1">
-	Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	
-</div>
-<div class="txt2">
-	<span>Jesica Smith</span><br><a href="#">http://demolink.org</a>
 </div>	
 </div>
 
@@ -96,15 +87,10 @@
 <h2>Services</h2>
 
 <ul class="ul1">
-  <li><a href="#">Fusce euismod consequat ante</a></li>
-  <li><a href="#">Lorem ipsum dolor sit amet, </a></li>
-  <li><a href="#">Pellentesque sed dolor</a></li>
-  <li><a href="#">Aliquam congue fermentum nisl</a></li>
-  <li><a href="#">Mauris accumsan nulla vel diam aliquet</a></li>
-  <li><a href="#">Sed in lacus ut enim adipiscing</a></li>		            		      	      			      
+  	<?php foreach($result as $row) : ?>
+  	<li><a href="#"><?php echo $row->serv_type ?></a></li>	
+	<?php endforeach; ?>		            		      	      			      
 </ul>
-
-<a href="#" class="button1">read more</a>
 
 </div>	
 </div>	

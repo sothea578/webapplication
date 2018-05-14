@@ -3,7 +3,7 @@
 <div class="slider_bot">
 <div class="page_title">Contacts</div>
 <div class="breadcrumbs1">
-<div class="breadcrumbs1_inner"><a href="index.html">Home Page</a>&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Contacts</div>	
+<div class="breadcrumbs1_inner"><a href="/webapplication/index.php/Users/home/">Home Page</a>&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Contacts</div>	
 </div>
 </div>
 </div>
@@ -33,7 +33,7 @@ E-mail: <a href="#">mail@bteamny.com</a>
 
 <div id="note"></div>
 <div id="fields">
-	<form id="ajax-contact-form" class="form-horizontal" action="javascript:alert('success!');">
+	<form id="ajax-contact-form" class="form-horizontal" action="/webapplication/index.php/Contacts/create_contact/" method="post">
 		<div class="row">
 			<div class="span3">
 				<div class="control-group">
@@ -111,45 +111,6 @@ E-mail: <a href="#">mail@bteamny.com</a>
 <div class="container">
 <div class="row">
 <div class="span9">
-	
-<h2>Best Tour</h2>
-
-<div class="thumb1">
-	<div class="thumbnail clearfix">
-		<figure class="img-polaroid"><img src="http://via.placeholder.com/209x192" alt=""></figure>
-		<div class="caption">
-			<p>
-				<strong>Epsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </strong>
-			</p>
-			<p>
-				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetuer adipiscing elit. Nunc suscipit. Suspendisse enim arcu, convallis non, cursus sed, dignissim et, est. Aenean semper aliquet libero. In ante velit, cursus ut, ultrices vitae, tempor ut, risus.  Duis pulvinar. Vestibulum vel pede at sapien sodales mattis. Quisque pretium, lacus nec iaculis vehicula, arcu libero consectetuer massa, auctor aliquet mauris ligula id ipsum. 
-			</p>
-			<a href="#" class="button1">read more</a>
-		</div>
-	</div>
-</div>
-
-
-
-</div>
-<div class="span3">
-	
-<h2>Services</h2>
-
-<ul class="ul1">
-  <li><a href="#">Fusce euismod consequat</a></li>
-  <li><a href="#">Lorem ipsum dolor sit amet, </a></li>
-  <li><a href="#">Pellentesque sed dolor</a></li>
-  <li><a href="#">Aliquam congue nisl</a></li>
-  <li><a href="#">Mauris accumsan diam</a></li>
-  <li><a href="#">Sed in lacus ut adipiscing</a></li>		            		      	      			      
-</ul>
-
-<a href="#" class="button1">read more</a>
-
-
-
-
 
 </div>	
 </div>	
