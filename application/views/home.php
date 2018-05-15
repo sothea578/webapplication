@@ -59,7 +59,7 @@
 						<div class="thumbnail clearfix">
 							<a>
 								<figure>
-									<img src="/webapplication/public/gal_img/<?php echo $row->picture; ?>" alt="">
+									<img src="/webapplication/public/gal_img/<?php echo $row->picture; ?>" alt="" style="width: 270px; height: 220px;">
 									<em></em>
 								</figure>
 								<div class="caption">

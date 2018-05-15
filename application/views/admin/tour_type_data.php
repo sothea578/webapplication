@@ -17,7 +17,7 @@
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
               <thead>
                 <tr>
-                  <th>Type ID</th>
+                  <th>ID</th>
                   <th>Destination name</th>
                   <th>Tour code</th>
                   <th>People amount</th>
@@ -26,7 +26,7 @@
               </thead>
               <tfoot>
                 <tr>
-                  <th>Type ID</th>
+                  <th>ID</th>
                   <th>Destination name</th>
                   <th>Tour code</th>
                   <th>People amount</th>
