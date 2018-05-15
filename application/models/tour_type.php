@@ -14,10 +14,9 @@ class tour_type extends CI_Model{
     }
 
     public function get_all_tour_type($id){
-        $this->db->select("t.tour_type_id, t.tour_code, t.id_des, t.people_amount, b.id_booktour, b.tour_code, d.des_id, d.des_name");
-        $this->db->from('tour_type as t, booktour as b, destination as d');
+        $this->db->select("t.tour_type_id, t.tour_code, t.id_des, t.people_amount, d.des_id, d.des_name");
+        $this->db->from('tour_type as t, destination as d');
         $this->db->where('t.tour_type_id', $id)
-                ->where('t.tour_code = b.tour_code')
                 ->where('t.id_des = d.des_id');
         $query = $this->db->get();
         return $query->result();
