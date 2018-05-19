@@ -21,6 +21,7 @@
                   <th>Destination name</th>
                   <th>Tour code</th>
                   <th>People amount</th>
+                  <th>Status</th>
                   <th>Option</th>
                 </tr>
               </thead>
@@ -30,6 +31,7 @@
                   <th>Destination name</th>
                   <th>Tour code</th>
                   <th>People amount</th>
+                  <th>Status</th>
                   <th>Option</th>
                 </tr>
               </tfoot>
@@ -40,6 +42,7 @@
                   <td><?php echo $row->des_name ?></td>
                   <td><?php echo $row->tour_code ?></td>
                   <td><?php echo $row->people_amount ?></td>
+                  <td><?php echo $row->status ?></td>
                   <td>
                     <a href="/webapplication/index.php/Tour_types/tour_type_detail?id=<?php echo($row->tour_type_id)?>" class="btn btn-info">Update</a>
                     <a href="/webapplication/index.php/Tour_types/delete_tour_type?id=<?php echo($row->tour_type_id)?>" class="btn btn-danger">Delete</a>

@@ -26,7 +26,7 @@
         <div class="form-group">
        		<label class="col-sm-3 control-label no-padding-right" for="form-content"> Content: </label>
     		<div class="col-sm-9">
-    			<input type="text" name="msg" id="msg" class="col-xs-10 col-sm-5" value="<?php echo $row->massage; ?>">
+    			<textarea type="text" name="msg" id="msg" class="col-xs-10 col-sm-5" value="msg"><?php echo $row->massage; ?></textarea>
     		</div>
        	</div>
 

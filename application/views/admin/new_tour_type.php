@@ -13,7 +13,7 @@
         <div class="col-sm-9">
           <select class="col-xs-10 col-sm-5" name="id_des" value="<?php echo set_value('id_des');?>" id="id_des">
             <?php foreach ($result as $row) : ?>
-            <option class="form-id-cat form-control"><?php echo $row->des_id ?></option>
+            <option class="form-id-des form-control"><?php echo $row->des_id ?></option>
             <?php endforeach; ?>
         </select>
         </div>
@@ -23,12 +23,12 @@
           <h6><?php echo $row->des_id.'. '.$row->des_name ?></h6>
         <?php endforeach; ?>
         </div>
-      </div>
+        </div>
 
-      <div class="form-group">
+        <div class="form-group">
             <label class="col-sm-3 control-label no-padding-right" for="form-people-amount"> People: </label>
             <div class="col-sm-9">
-                <input type="text" id="people_amount" class="col-xs-10 col-sm-5" name="name_amount" value="<?php echo set_value('people_amount'); ?>">
+                <input type="number" id="people_amount" class="col-xs-10 col-sm-5" name="name_amount" value="<?php echo set_value('people_amount'); ?>">
             </div>
         </div>
 </div>
