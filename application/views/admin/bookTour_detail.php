@@ -1,6 +1,6 @@
 <div class="content-wrapper">
 <?php foreach($result as $row): ?>
-<form role="form" action="/webapplication/index.php/BookingTour/update_book_tour?id=<?php echo($row->id_bookTour)?>" method="post">
+<form role="form" action="/webapplication/index.php/BookingTour/update_book_tour?id=<?php echo($row->id_bookTour)?>" method="post" class="create-form">
 <div class="space-4">
     	<div class="form-group">
     		<label class="col-sm-3 control-label no-padding-right" for="form-uname"> Username: </label>
@@ -58,6 +58,13 @@
         </div>
         </div>
 
+        <div class="form-group">
+          <label class="col-sm-3 control-label no-padding-right" for="form-destination-price"> Price: </label>
+        <div class="col-sm-9">
+          <input type="text" name="des_price" id="des_price" class="col-xs-10 col-sm-5" value="<?php echo $row->des_price; ?>">
+        </div>
+        </div>
+
        	<div class="form-group">
        		<label class="col-sm-3 control-label no-padding-right" for="form-booking-date"> Booking date: </label>
     		<div class="col-sm-9">
@@ -67,9 +74,9 @@
         <div class="form-group">
         <label class="col-sm-3 control-label no-padding-right" for="form-tour-code"> Tour code: </label>
           <div class="col-sm-9">
-            <select class="col-xs-10 col-sm-5" name="tour_code" value="<?php echo set_value('tour_code');?>" id="tour_code">
+            <select class="selectpicker col-xs-10 col-sm-5" name="id_tour_type" value="<?php echo $row->id_tour_code;?>" id="tour_code">
               <?php foreach ($tour as $r) : ?>
-                <option class="form-tour-code form-control"><?php echo $r->tour_code ?></option>
+                <option class="form-tour-code form-control"><?php echo $r->tour_type_id ?></option>
               <?php endforeach; ?>
             </select>
           </div>
@@ -84,7 +91,7 @@
        	<div class="form-group">
        		<label class="col-sm-3 control-label no-padding-right" for="form-booking-status"> Status: </label>
     		<div class="col-sm-9">
-    			<select class="col-xs-10 col-sm-5" name="book_stt" id="book_stt" value="<?php echo set_value('book_stt');?>">
+    			<select class="selectpicker col-xs-10 col-sm-5" name="book_stt" id="book_stt" value="<?php echo $row->status;?>">
   					<option class="form-booking-status form-control">pending</option>
   					<option class="form-booking-status form-control">confirm</option>
   					<option class="form-booking-status form-control">processing</option>

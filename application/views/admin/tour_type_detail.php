@@ -1,6 +1,6 @@
 <div class="content-wrapper">
 <?php foreach($tour as $row): ?>
-<form role="form" action="/webapplication/index.php/Tour_types/update_tour_type?id=<?php echo($row->tour_type_id)?>" method="post">
+<form role="form" action="/webapplication/index.php/Tour_types/update_tour_type?id=<?php echo($row->tour_type_id)?>" method="post" class="create-form">
 <div class="space-4">
     	<div class="form-group">
     		<label class="col-sm-3 control-label no-padding-right" for="form-tour-code"> Tour code: </label>

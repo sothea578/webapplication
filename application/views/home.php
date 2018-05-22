@@ -87,16 +87,16 @@
 	
 <h1>Welcome to traveler</h1>
 
-<h3>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</h3>
+<h3>MY TRAVEL</h3>
 
 <div class="thumb1">
 	<div class="thumbnail clearfix">
-		<figure class="img-polaroid"><img src="http://via.placeholder.com/208x134" alt=""></figure>
+		<figure class="img-polaroid"><img src="/webapplication/assets/bootstraps/images/logo.png" style="width: 208px; height: 134px;" alt=""></figure>
 		<div class="caption">
 			<p>
-				Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetuer adipiscing elit. Nunc suscipit. 
+				My Travel is the leading company in the travel industry in Cambodia. This privately-owned company was founded in 1996 by Mrs. NGO Kim. Through the years, the company has provided excellent travel and tours services for the local and international market. RTR Tours primarily promotes the natural beauty, culture and tradition of Cambodia. From its humble beginning, it now explores the world, offering more adventures and places to see and experience in Asia, Europe and other continents of the world. RTR Tours has grown to be one of the most esteemed travel companies in Cambodia. Internationally recognized and accredited as a full service travel company engaged in all aspects of the tourism industry. The company is continuously extending its horizon by affiliating with some of the world's best travel companies to give its clients superb and authentic travel experiences.  
 			</p>
-			<a href="#" class="button1">read more</a>
+			<!--<a href="#" class="button1">read more</a>-->
 		</div>
 	</div>
 </div>

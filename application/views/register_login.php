@@ -92,6 +92,7 @@
 	                        		</div>
 	                            </div>
 	                            <div class="form-bottom">
+	                            	<?php echo validation_errors(); ?>
 				                    <form role="form" action="/webapplication/index.php/Users/user_register" method="post" class="registration-form">
 				                    	<div class="form-group">
 				                    		<label class="sr-only" for="form-username">Username</label>
@@ -119,7 +120,7 @@
 				                        </div>
 				                        <div class="form-group">
 				                        	<label class="sr-only" for="form-email">Email</label>
-				                        	<input type="text" name="email" placeholder="Email..." class="form-email form-control" id="email" value="<?php echo set_value('email');?>">
+				                        	<input type="email" name="email" placeholder="Email..." class="form-email form-control" id="email" value="<?php echo set_value('email');?>">
 				                        </div>
 				                        <div class="form-group">
 				                        	<label class="sr-only" for="form-tel">Phone number</label>

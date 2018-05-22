@@ -1,5 +1,5 @@
 <div class="content-wrapper">
-<form role="form" action="/webapplication/index.php/Destinations/create_destination" method="post" >
+<form role="form" action="/webapplication/index.php/Destinations/create_destination" method="post" class="create-form">
  <div class="form-group">
  <label class="col-sm-3 control-label no-padding-right" for="form-destination-name"> Destination name </label>
  <div class="col-sm-9">
@@ -19,7 +19,7 @@
  <div class="form-group">
  <label class="col-sm-3 control-label no-padding-right" for="form-destination-detail"> Destination detail </label>
  <div class="col-sm-9">
- <textarea type="text" id="detail" placeholder="Destination detail" class="col-xs-10 col-sm-5" name="detail" value="<?php echo set_value('detail'); ?>">
+ <textarea id="article" placeholder="Destination detail" class="col-xs-10 col-sm-5" name="detail" rows="10" value="<?php echo set_value('detail'); ?>">
  </textarea>
  </div>
  </div>
@@ -54,15 +54,42 @@
  <div class="col-md-offset-3 col-md-9">
  <button class="btn btn-info" type="submit">
  <i class="ace-icon fa fa-check bigger-110"></i>
- Submit
+ Create
  </button>
  
- &nbsp; &nbsp; &nbsp;
- <button class="btn" type="reset">
- <i class="ace-icon fa fa-undo bigger-110"></i>
- Reset
- </button>
  </div>
  </div>
 </form>
 </div>
+
+<script>
+  $(document).ready(function(){
+    loadArticle();
+    $("#frmArticle").submit(function (e){
+      e.preventDefault();
+      tinymce.triggerSave();
+      var data = $(this).serialize();
+      var type = $(this).attr('method');
+      var url = $(this).attr('action');
+      .log(data);
+
+      $.ajax({
+        url:url,
+        type: type,
+        data: data
+      }).done(function (html){
+        $('#frmArticle')[0].reset();
+        loadArticle();
+      });
+    });
+  });
+
+  function loadArticle(){
+    $.ajax({
+      url:'webapplication/index/Admin/loadArticle',
+      type: 'GET'
+    }).done(function (html){
+      $(".response").html(html);
+    });
+  };
+</script>

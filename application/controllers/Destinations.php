@@ -48,7 +48,6 @@ class Destinations extends CI_Controller {
         $this->load->view('destination_detail',$data);
         $foot = new Users();  //create object 
         $foot->footer(); //call function
-        $this->load->view('footer');
 	}
 
     public function each_destination(){
@@ -61,7 +60,6 @@ class Destinations extends CI_Controller {
         $this->load->view('destination',$data);
         $foot = new Users();  //create object 
         $foot->footer(); //call function
-        $this->load->view('footer');
     }
 
     public function des_detail_admin(){

@@ -36,7 +36,7 @@ class Admin extends CI_Controller {
                 $data['error'] = 1;
             } else {
                 $this->session->set_userdata('admin_id', $admin['admin_id']);
-                redirect('Admin/user_data');
+                redirect('Admin/main');
             }
         }
         redirect('Admin/login');
@@ -124,6 +124,10 @@ class Admin extends CI_Controller {
             return true;
         }
     }	
+
+    public function loadArticle(){
+        $this->model_admin->loadArticle();
+    }
 }
 
 ?>

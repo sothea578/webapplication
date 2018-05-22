@@ -18,7 +18,6 @@ class BookingTour extends CI_Controller {
         $this->load->view('book_tour', $data);
         $foot = new Users();  //create object 
         $foot->footer(); //call function
-        $this->load->view('footer');
     }
 
     public function booktour_process(){

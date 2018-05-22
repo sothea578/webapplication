@@ -39,7 +39,7 @@
 
 </div>
 </div>
-<div class="span4">
+<!--<div class="span4">
 	
 <h2>Best Services</h2>
 
@@ -57,8 +57,8 @@
 		</div>
 	</div>
 </div>
+</div>-->
 
-</div>	
 </div>	
 </div>	
 </div>

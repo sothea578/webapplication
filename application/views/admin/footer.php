@@ -41,6 +41,9 @@
     <!-- Custom scripts for this page-->
     <script src="/webapplication/assets/admin/js/sb-admin-datatables.min.js"></script>
     <script src="/webapplication/assets/admin/js/sb-admin-charts.min.js"></script>
+
+    <script src="/webapplication/assets/tinymce/js/jquery-1.11.1.min.js"></script>
+    <script src="/webapplication/assets/tinymce/js/js/jquery.backstretch.min.js"></script>
   </div>
 </body>
 

@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -16,6 +16,14 @@
   <link href="/webapplication/assets/admin/vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
   <!-- Custom styles for this template-->
   <link href="/webapplication/assets/admin/css/sb-admin.css" rel="stylesheet">
+  <script src="/webapplication/assets/tinymce/js/tinymce/tinymce.min.js"></script>
+
+  <script type="text/javascript">
+    tinymce.init({
+      selector: "textarea",
+      plugins: "link image"
+    });
+  </script>
 </head>
 
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">

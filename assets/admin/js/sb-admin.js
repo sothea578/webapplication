@@ -1,3 +1,23 @@
+jQuery(document).ready(function(){
+  $('.create-form input[type="text"], .create-form input[type="password"], .create-form textarea').on('focus', function() {
+      $(this).removeClass('input-error');
+    });
+    
+    $('.create-form').on('submit', function(e) {
+      
+      $(this).find('input[type="text"], input[type="password"], textarea').each(function(){
+        if( $(this).val() == "" ) {
+          e.preventDefault();
+          $(this).addClass('input-error');
+        }
+        else {
+          $(this).removeClass('input-error');
+        }
+      });
+      
+    });
+}
+
 (function($) {
   "use strict"; // Start of use strict
   // Configure tooltips for collapsed side navigation

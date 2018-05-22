@@ -18,7 +18,7 @@
 	<div class="bot1_title">Destinations</div>
 	<ul class="ul0">
 	  	<?php foreach($result as $row) : ?>
-  		<li><a href="#"><?php echo $row->cat_name ?></a></li>	
+  		<li><a href="/webapplication/index.php/Destinations/each_destination?id=<?php echo($row->cat_id)?>"><?php echo $row->cat_name ?></a></li>	
 		<?php endforeach; ?>
 	</ul>
 </div>

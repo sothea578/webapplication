@@ -1,6 +1,6 @@
 <div class="content-wrapper">
 <?php foreach($result as $row): ?>
-<form role="form" action="/webapplication/index.php/Contacts/update_contact_stt?id=<?php echo($row->contact_id)?>" method="post">
+<form role="form" action="/webapplication/index.php/Contacts/update_contact_stt?id=<?php echo($row->contact_id)?>" method="post" class="create-form">
 <div class="space-4">
     	<div class="form-group">
     		<label class="col-sm-3 control-label no-padding-right" for="form-full-name"> Full Name: </label>
@@ -39,7 +39,7 @@
        	<div class="form-group">
        		<label class="col-sm-3 control-label no-padding-right" for="form-contact-status"> Status: </label>
     		<div class="col-sm-9">
-    			<select class="col-xs-10 col-sm-5" name="contact_stt" id="contact_stt" value="<?php echo set_value('contact_stt');?>">
+    			<select class="selectpicker col-xs-10 col-sm-5" name="contact_stt" id="contact_stt" value="<?php echo $row->status;?>">
   					<option class="form-booking-status form-control">pending</option>
   					<option class="form-booking-status form-control">replied</option>
 				</select>

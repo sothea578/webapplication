@@ -128,20 +128,12 @@ class Users extends CI_Controller {
     }
 
 	public function user_register(){
+		$this->load->helper(array('form', 'url'));
 		$this->load->library('form_validation');
+		
 		$this->load->model('user');
-  		$params=array(
-			'user_name' => $name,
-        	'password' => $pw,
-        	'full_name' => $f_name,
-        	'sex' => $sex,
-        	'user_dob' => $dob,
-        	'email' => $email,
-        	'phone_number' => $pho_num,
-        	'address' => $add
-		);
-   		$this->user->create_user();
-   		redirect('Users/register_login');
+		$this->user->create_user();
+        redirect('Users/register_login');
  	}
 
 	public function delete_user(){

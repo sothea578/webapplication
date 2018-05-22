@@ -13,6 +13,14 @@ class gallery extends CI_Model {
   		return $query->result();
     }
 
+    public function get_each_gal($id){
+      $this->db->select("*");
+      $this->db->from('gallery');
+      $this->db->where('id_cat', $id);
+      $query = $this->db->get();
+      return $query->result();
+    }
+
     public function get_gal_admin($id){
       $this->db->select("gal_id, picture, id_des, id_cat, gal_name");
       $this->db->from('gallery');

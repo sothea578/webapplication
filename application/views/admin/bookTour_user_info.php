@@ -19,13 +19,11 @@
                   <th>Book ID</th>
                   <th>User ID</th>
                   <th>Username</th>
-                  <th>Full name</th>
-                  <th>Sex</th>
                   <th>Email</th>
                   <th>Phone number</th>
-                  <th>Address</th>
                   <th>Category</th>
                   <th>Destination</th>
+                  <th>Price</th>
                   <th>Booking date</th>
                   <th>Tour code</th>
                   <th>Status</th>
@@ -37,13 +35,11 @@
                   <th>Book ID</th>
                   <th>User ID</th>
                   <th>Username</th>
-                  <th>Full name</th>
-                  <th>Sex</th>
                   <th>Email</th>
                   <th>Phone number</th>
-                  <th>Address</th>
                   <th>Category</th>
                   <th>Destination</th>
+                  <th>Price</th>
                   <th>Booking date</th>
                   <th>Tour code</th>
                   <th>Status</th>
@@ -56,13 +52,11 @@
                   <td><?php echo $row->id_bookTour ?></td>
                   <td><?php echo $row->user_id ?></td>
                   <td><?php echo $row->user_name ?></td>
-                  <td><?php echo $row->full_name ?></td>
-                  <td><?php echo $row->sex ?></td>
                   <td><?php echo $row->email ?></td>
                   <td><?php echo $row->phone_number ?></td>
-                  <td><?php echo $row->address ?></td>
                   <td><?php echo $row->cat_name ?></td>
                   <td><?php echo $row->des_name ?></td>
+                  <td><?php echo $row->des_price ?></td>
                   <td><?php echo $row->booking_date ?></td>
                   <td><?php echo $row->tour_code ?></td>
                   <td><?php echo $row->status ?></td>

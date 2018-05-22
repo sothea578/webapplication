@@ -1,6 +1,6 @@
 <div class="content-wrapper">
 <?php foreach($result as $row): ?>
-<form role="form" action="/webapplication/index.php/Admin/update_user?id=<?php echo($row->user_id)?>" method="post">
+<form role="form" action="/webapplication/index.php/Admin/update_user?id=<?php echo($row->user_id)?>" method="post" class="create-form">
 <div class="space-4">
     
     	<div class="form-group">

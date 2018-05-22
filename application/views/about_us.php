@@ -17,18 +17,23 @@
 
 <div class="thumb1">
 	<div class="thumbnail clearfix">
-		<figure class="img-polaroid"><img src="http://via.placeholder.com/290x192" alt=""></figure>
+		<figure class="img-polaroid"><img src="/webapplication/assets/bootstraps/images/logo.png" alt="" style="height: 192px; width: 290px;" ></figure>
 		<div class="caption">
+			<strong>BRIEF HISTORY</strong>
 			<p>
-				Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetuer adipiscing elit. Nunc suscipit. Suspendisse enim arcu, convallis non, cursus sed, dignissim et, est. Aenean semper aliquet libero. In ante velit, cursus ut, ultrices vitae, tempor ut, risus
+				RTR Tours Co., Ltd is the leading company in the travel industry in Cambodia. This privately-owned company was founded in 1996 by Mrs. NGO Kim. Through the years, the company has provided excellent travel and tours services for the local and international market. RTR Tours primarily promotes the natural beauty, culture and tradition of Cambodia. From its humble beginning, it now explores the world, offering more adventures and places to see and experience in Asia, Europe and other continents of the world. RTR Tours has grown to be one of the most esteemed travel companies in Cambodia. Internationally recognized and accredited as a full service travel company engaged in all aspects of the tourism industry. The company is continuously extending its horizon by affiliating with some of the world's best travel companies to give its clients superb and authentic travel experiences.
 			</p>
+			<strong>VISION</strong>
 			<p>
-				Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetuer adipiscing elit. Nunc suscipit. Suspendisse enim arcu, convallis non, cursus sed, dignissim et, est. Aenean semper aliquet libero. In ante velit, cursus ut, ultrices vitae, tempor ut, risus. Duis pulvinar. Vestibulum vel pede at sapien sodales mattis. Quisque pretium, lacus nec iaculis vehicula, arcu libero consectetuer massa, auctor aliquet mauris ligula id ipsum. Vestibulum pede. Maecenas sit amet augue. Sed blandit lect
+				We envision ourselves as the leading and most trusted tour operator in the tourism industry in Cambodia by maintaining and enhancing the quality of services to our customers and by establishing partnerships with various travel and tourism providers worldwide.
 			</p>
+			<strong>MISSION</strong>
 			<p>
-				<a href="#">Us eget lectus. Mauris justo. Curabitur nibh lectus, dapibus id, tempor eu, tempor non, erat. Proin pede eros, pharetra ut, viverra sed, egestas nec, mauris. </a>
+				-   To provide personalized, responsive and excellent travel services to our clients that match the needs and budget of the clients.</br>
+				-   To build professional partnerships with local and international travel suppliers to make sure that we can offer the best deal for our clients.</br>
+				-   To maintain integrity and professional courtesy in all our business transactions.
 			</p>
-			<a href="#" class="button1">read more</a>
+			<!--<a href="#" class="button1">read more</a>-->
 		</div>
 	</div>
 </div>
@@ -36,14 +41,14 @@
 </div>
 <div class="span4">
 	
-<h2>Our receptionist</h2>
+<h2>Our Address</h2>
 
 <div class="testimonial1">
 <div class="txt1">
-	Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.	
+	#263 EO, Monivong Blvd  Sangkat Orrusey 4 Khan 7 Makara Phnom Penh, Kingdom of Cambodia	
 </div>
 <div class="txt2">
-	<span>Alex Williams</span><br><a href="#">http://demolink.org</a>
+	<span>Our Facebook Page</span><br><a href="https://www.facebook.com/thea578">My travel</a>
 </div>	
 </div>
 
@@ -62,22 +67,29 @@
 <div class="date1 clearfix">
 	<div class="c1">1</div>
 	<div class="caption">
-		<h3>Lorem ipsum dolor sit amet conse ctetur adipisicing elit</h3>
-		Sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor sit amet conse ctetur adipisicing elit.
+		<h3>Customer Satisfaction</h3>
+		We are committed to providing the highest level of customer satisfaction.
 	</div>
 </div>
 <div class="date1 clearfix">
 	<div class="c1">2</div>
 	<div class="caption">
-		<h3>Mauris accumsan nulla vel diam</h3>
-		Sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor sit amet conse ctetur adipisicing elit.
+		<h3>Excellence</h3>
+		We passionately strive hard to do our best in all aspects of work and our lives in order to become the best of the best.
 	</div>
 </div>
 <div class="date1 clearfix">
 	<div class="c1">3</div>
 	<div class="caption">
-		<h3> Aenean semper aliquet libero</h3>
-		Sed do eiusmod tempor incididunt ut labore et dolore magna. Ipsum dolor sit amet conse ctetur adipisicing elit.
+		<h3>Novelty</h3>
+		We keep abreast of the best practices, current technology, the most unique destinations, and value-laden travel products and services for our valued customers.
+	</div>
+</div>
+<div class="date1 clearfix">
+	<div class="c1">4</div>
+	<div class="caption">
+		<h3>Secrecy</h3>
+		We maintain the secrecy of sensitive information given to us by our clients and business partners.
 	</div>
 </div>
 

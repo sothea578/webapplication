@@ -16,13 +16,15 @@
 
 <div id="isotope-options">
     <ul id="isotope-filters" class="clearfix">
-        <!-- <li><a href="#" class="selected" data-filter="*">Show All</a></li> 
-        <li><a href="#" data-filter=".isotope-filter1">Category 1</a></li> -->           
+        <li><a href="/webapplication/index.php/Galleries/showGallery/" class="selected" data-filter="*">Show All</a></li>
+        <?php foreach($result as $r) : ?>
+        <li><a href="/webapplication/index.php/Galleries/show_each_gallery?id=<?php echo($r->cat_id)?>" data-filter=".isotope-filter1"><?php echo $r->cat_name ?></a></li> 
+        <?php endforeach; ?>          
     </ul>            
 </div>
 
 <ul class="thumbnails" id="isotope-items">		
-	<?php foreach($result as $row): ?>  
+	<?php foreach($gal as $row): ?>  
     <li class="span3 isotope-element isotope-filter1">
 		<div class="thumb-isotope">
 			<div class="thumbnail clearfix">

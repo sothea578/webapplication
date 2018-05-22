@@ -1,6 +1,6 @@
 <div class="content-wrapper">
 <?php foreach($cat as $row): ?>
-<form role="form" action="/webapplication/index.php/Categories/update_category?id=<?php echo($row->cat_id)?>" method="post">
+<form role="form" action="/webapplication/index.php/Categories/update_category?id=<?php echo($row->cat_id)?>" method="post" class="create-form">
 <div class="space-4">
     	<div class="form-group">
     		<label class="col-sm-3 control-label no-padding-right" for="form-category-name"> Category Name: </label>

@@ -1,6 +1,6 @@
 <div class="content-wrapper">
 <?php foreach($result as $r): ?>
-<form role="form" action="/webapplication/index.php/Destinations/update_destination?id=<?php echo($r->des_id)?>" method="post">
+<form role="form" action="/webapplication/index.php/Destinations/update_destination?id=<?php echo($r->des_id)?>" method="post" class="create-form">
 <div class="space-4">
     	<div class="form-group">
         <label class="col-sm-3 control-label no-padding-right" for="form-destination-name"> Destination name </label>
@@ -21,7 +21,7 @@
       <div class="form-group">
         <label class="col-sm-3 control-label no-padding-right" for="form-destination-detail"> Destination detail </label>
         <div class="col-sm-9">
-          <textarea type="text" id="detail" placeholder="Destination detail" class="col-xs-10 col-sm-5" name="detail" rows="10" cols="50" value="<?php echo set_value('detail'); ?>"><?php echo($r->des_detail) ?></textarea>
+          <textarea id="article" placeholder="Destination detail" class="col-xs-10 col-sm-5" name="detail" rows="10" value="<?php echo set_value('detail'); ?>"><?php echo($r->des_detail) ?></textarea>
         </div>
       </div>
         
@@ -35,7 +35,7 @@
       <div class="form-group">
         <label class="col-sm-3 control-label no-padding-right" for="form-category-id"> Category ID </label>
         <div class="col-sm-9">
-          <select class="col-xs-10 col-sm-5" name="id_cat" value="<?php echo set_value('id_cat');?>" id="id_cat">
+          <select class="selectpicker col-xs-10 col-sm-5" name="id_cat" value="<?php echo $row->id_cat;?>" id="id_cat">
             <?php foreach ($cat as $row) : ?>
             <option class="form-id-cat form-control"><?php echo $row->cat_id ?></option>
             <?php endforeach; ?>
@@ -62,3 +62,35 @@
 </form>
 <?php endforeach; ?>
 </div>
+
+<script>
+  $(document).ready(function(){
+    loadArticle();
+    $("#frmArticle").submit(function (e){
+      e.preventDefault();
+      tinymce.triggerSave();
+      var data = $(this).serialize();
+      var type = $(this).attr('method');
+      var url = $(this).attr('action');
+      .log(data);
+
+      $.ajax({
+        url:url,
+        type: type,
+        data: data
+      }).done(function (html){
+        $('#frmArticle')[0].reset();
+        loadArticle();
+      });
+    });
+  });
+
+  function loadArticle(){
+    $.ajax({
+      url:'webapplication/index/Admin/loadArticle',
+      type: 'GET'
+    }).done(function (html){
+      $(".response").html(html);
+    });
+  };
+</script>

@@ -1,6 +1,6 @@
 <div class="content-wrapper">
 <?php foreach($result as $r): ?>
-<form role="form" action="/webapplication/index.php/Galleries/update_gallery?id=<?php echo($r->gal_id)?>" method="post" >
+<form role="form" action="/webapplication/index.php/Galleries/update_gallery?id=<?php echo($r->gal_id)?>" method="post" class="create-form">
 <div class="space-4">
  <div class="form-group">
  <label class="col-sm-3 control-label no-padding-right" for="form-pic"> Gallery pic </label>

@@ -13,7 +13,23 @@ class Galleries extends CI_Controller {
 
     public function showGallery(){
         $this->load->model('gallery');
-        $data['result']=$this->gallery->get_gallery();
+        $data['gal']=$this->gallery->get_gallery();
+        $this->load->model('category');
+        $data['result']=$this->category->get_cat();
+        require_once(APPPATH.'controllers/Users.php'); //include controller
+        $aObj = new Users();  //create object 
+        $aObj->category(); //call function
+        $foot = new Users();  //create object
+        $this->load->view('gallery',$data); 
+        $foot->footer(); //call function
+    }
+
+    public function show_each_gallery(){
+        $id =intval($this->input->get('id'));
+        $this->load->model('category');
+        $data['result']=$this->category->get_cat();
+        $this->load->model('gallery');
+        $data['gal']=$this->gallery->get_each_gal($id);
         require_once(APPPATH.'controllers/Users.php'); //include controller
         $aObj = new Users();  //create object 
         $aObj->category(); //call function
