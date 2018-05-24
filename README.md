@@ -10,6 +10,7 @@ Please update your installation to the latest CodeIgniter 3.x version available
 
 Cài đặt:
 - Cài dặt server xampp/wamp/...
+- Copy project vào trong thư mục /htdocs/
 - Trong application/config/confic.php
 	$config['base_url'] = 'http://[địa chỉ localhost]/webapplication/';
 - Copy file database webtour.sql vào trong phpMyAdmin
