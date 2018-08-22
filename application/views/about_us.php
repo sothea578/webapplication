@@ -45,7 +45,7 @@
 
 <div class="testimonial1">
 <div class="txt1">
-	<b>No.60, Sivatha (St.), Mondul 2 Village, Sangkat Svay Dangkum, Siem Reap City, Siem Reap, Cambodia</b>	
+    <b>No.60, Sivatha (St.), Mondul 2 Village, Sangkat Svay Dangkum, Siem Reap City, Siem Reap, Cambodia</b>
 </div>
 <div class="txt2">
     <span>Our Facebook Page: </span><b> <a href="https://www.facebook.com/Fast-Air-Ticket-Tour-1630411597253277/" target="_blank">Fast Air Ticket & Tour</a></b>
