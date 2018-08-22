@@ -17,17 +17,17 @@
 
 <div class="thumb1">
 	<div class="thumbnail clearfix">
-		<figure class="img-polaroid"><img src="/webapplication/assets/bootstraps/images/logo.png" alt="" style="height: 192px; width: 290px;" ></figure>
-		<div class="caption">
-			<strong>BRIEF HISTORY</strong>
+		<figure class="img-polaroid"><img src="/webapplication/assets/bootstraps/images/logo_i.png" alt="" style="height: 100%; width: 100%;" ></figure>
+		<div class="caption" align="justify">
+			<strong>FAT's HISTORY</strong>
 			<p>
-				RTR Tours Co., Ltd is the leading company in the travel industry in Cambodia. This privately-owned company was founded in 1996 by Mrs. NGO Kim. Through the years, the company has provided excellent travel and tours services for the local and international market. RTR Tours primarily promotes the natural beauty, culture and tradition of Cambodia. From its humble beginning, it now explores the world, offering more adventures and places to see and experience in Asia, Europe and other continents of the world. RTR Tours has grown to be one of the most esteemed travel companies in Cambodia. Internationally recognized and accredited as a full service travel company engaged in all aspects of the tourism industry. The company is continuously extending its horizon by affiliating with some of the world's best travel companies to give its clients superb and authentic travel experiences.
+				<b> FAT Travels & Tours </b> is the leading company in the travel & Tour industry particularly in Siem Reap Province. This privately-owned company was founded in 2010 by <b> Mrs. Leng Dalila </b> ( called Amom). Through the years, the company has provided excellent travel and tours services for the local and international market. FAT Travels & Tours Tours primarily promotes the natural beauty, culture and tradition of Cambodia to local & foreign customers. From its humble beginning, it now explores the world, offering more adventures and places to see and experience in Siem Reap province and around Cambodia. The company is continuously extending its services, such as special Tour packages, Hotels booking, Flight booking, Bus ticket from Siem Reap province to others provinces in Cambodia, Thailand, Laos, Vietnam, Tourism Visa and Business Visa services.... We provide end-to-end serives to customers with smiles & Responsibility. Best of the Best Tour & Travel Services is our goal.
 			</p>
-			<strong>VISION</strong>
+			<strong>OUR VISION</strong>
 			<p>
-				We envision ourselves as the leading and most trusted tour operator in the tourism industry in Cambodia by maintaining and enhancing the quality of services to our customers and by establishing partnerships with various travel and tourism providers worldwide.
+				We envision ourselves as the leading and most trusted tour agency in the tourism industry in  Siem Reap Cambodia by maintaining and enhancing the quality of services to our customers and by establishing partnerships with various travel and tourism providers nationwide & worldwide.
 			</p>
-			<strong>MISSION</strong>
+			<strong>OUR MISSION</strong>
 			<p>
 				-   To provide personalized, responsive and excellent travel services to our clients that match the needs and budget of the clients.</br>
 				-   To build professional partnerships with local and international travel suppliers to make sure that we can offer the best deal for our clients.</br>
@@ -45,10 +45,10 @@
 
 <div class="testimonial1">
 <div class="txt1">
-	#263 EO, Monivong Blvd  Sangkat Orrusey 4 Khan 7 Makara Phnom Penh, Kingdom of Cambodia	
+	<b>#EO, Sivatha Street, Mondul II Village, Sangkat Svay Dangkum, Siem Reap City, Kingdom of Cambodia</b>	
 </div>
 <div class="txt2">
-	<span>Our Facebook Page</span><br><a href="https://www.facebook.com/thea578">My travel</a>
+	<span>Our Facebook Page</span><br><a href="https://www.facebook.com/Fast-Air-Ticket-Tour-1630411597253277/" target="_blank">Fast Air Ticket & Tour</a>
 </div>	
 </div>
 

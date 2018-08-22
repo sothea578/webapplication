@@ -12,25 +12,25 @@
 <div class="container">
 <div class="row">
 <div class="span8">
-	
-<h1>Our Services</h1>
+
+<h1>Package</h1>
 
 <div class="row">
 <?php foreach($result as $row) : ?>
 <div class="span4">
 <div class="thumb1">
 	<div class="thumbnail clearfix">
-		<figure class="img-polaroid"><img src="/webapplication/public/serv_img/<?php echo $row->serv_pic ?>" alt="" style="width:210px;height:133px;"></figure>
+		<figure class="img-polaroid"><img src="/webapplication/public/serv_img/<?php echo $row->pkg_pic ?>" alt="" style="width:210px;height:133px;"></figure>
 		<div class="caption">
 			<p>
-				<strong><?php echo $row->serv_type ?></strong>
+				<strong><?php echo $row->pkg_name ?></strong>
 			</p>
-			<div class="">
+			<div class="cont">
 			<p>
-				<?php echo $row->serv_desc ?> 
+				<?php echo $row->pkg_desc ?> 
 			</p>
 			</div>		
-			<!--<a href="#" class="button1">read more</a>-->
+			<a href="/webapplication/index.php/Services/servicePackageDetail?id=<?php echo($row->pkg_id)?>" name="" id="" method="post" class="button1" value="">read more</a>
 		</div>
 	</div>
 </div>	
@@ -63,7 +63,7 @@
 </div>	
 </div>
 
-<div id="content2">
+<!--<div id="content2">
 <div class="container">
 <div class="row">
 <div class="span8">
@@ -85,4 +85,4 @@
 </div>	
 </div>	
 </div>	
-</div>
+</div>-->

@@ -4,7 +4,7 @@
 		<div id="camera_wrap">
 			<div data-src="/webapplication/assets/bootstraps/images/pp_banner.png" height="750" width="1600">
 				<div class="camera_caption fadeIn">
-					<div class="txt1">Phnum Penh</div>			
+					<div class="txt1">Phnom Penh</div>			
 					<div class="txt2">Capital city of Cambodia</div>
 				</div>     
 			</div>
@@ -19,7 +19,7 @@
 			<div data-src="/webapplication/assets/bootstraps/images/shn_banner.png" height="750" width="1600">
 				<div class="camera_caption fadeIn">
 					<div class="txt1">Shihanouk Ville</div>			
-					<div class="txt2">fantastic beach</div>
+					<div class="txt2">Most Beautiful Beach in The World</div>
 				</div>     
 			</div>
 		</div>
@@ -32,8 +32,8 @@
 <div class="span12">
 <div class="slogan1_inner">
 <div class="txt1">Start Your Trip With Us</div>	
-<div class="txt2">Popular destinations and greate customer service</div>
-<div class="txt3">Our global teams of experts handpick and curate the best experiences geared towards intrepid travelers as well as those vacationing for the first time. We offer awesome deals from trusted local tour operators and travel suppliers around the globe, and you can book with ease anywhere, anytime - from your laptop, phone, or our free mobile app. </div>
+<div class="txt2">Popular destinations and greate customer services</div>
+<div class="txt3">Our global teams of experts handpick and curate the best experiences geared towards intrepid travelers as well as those vacationing for the first time. We offer awesome deals from trusted local tour operators and travel suppliers around the globe, and you can book with ease anywhere, anytime - from your laptop or smart phone. </div>
 <div class="txt4 clearfix"><a href="/webapplication/index.php/Destinations/showDestination/" class="find1">Find the Tour</a><a href="/webapplication/index.php/Contacts/contact_us" class="request1">Contact Us</a></div>
 </div>	
 </div>	
@@ -46,11 +46,11 @@
 <div class="row">
 <div class="span12">
 <div id="slider3">
-<div class="slider3-title">Popular Destinations Picture</div>	
+<div class="slider3-title">Popular Destinations Pictures</div>
 <a class="prev3" href="#"></a>
 <a class="next3" href="#"></a>	
 <div class="carousel-box row">
-	<div class="inner span12">			
+	<div class="inner span12">		
 		<div class="carousel main">
 			<ul>
 				<?php foreach ($result as $row) : ?>
@@ -59,8 +59,10 @@
 						<div class="thumbnail clearfix">
 							<a>
 								<figure>
-									<img src="/webapplication/public/gal_img/<?php echo $row->picture; ?>" alt="" style="width: 270px; height: 220px;">
+								<marquee behavior="alternate">
+									<img src="/webapplication/public/gal_img/<?php echo $row->picture; ?>" style="width: 270px; height: 220px;">
 									<em></em>
+									</marquee>
 								</figure>
 								<div class="caption">
 									<?php echo $row->gal_name; ?>
@@ -85,16 +87,16 @@
 <div class="row">
 <div class="span9">
 	
-<h1>Welcome to traveler</h1>
+<h1><b>Welcome to traveler</b></h1>
 
 <h3>MY TRAVEL</h3>
 
 <div class="thumb1">
 	<div class="thumbnail clearfix">
-		<figure class="img-polaroid"><img src="/webapplication/assets/bootstraps/images/logo.png" style="width: 208px; height: 134px;" alt=""></figure>
-		<div class="caption">
+		<figure class="img-polaroid"><img src="/webapplication/assets/bootstraps/images/logo_i.png" style="width: 208px; height: 100%;" alt=""></figure>
+		<div class="caption" align="justify">
 			<p>
-				My Travel is the leading company in the travel industry in Cambodia. This privately-owned company was founded in 1996 by Mrs. NGO Kim. Through the years, the company has provided excellent travel and tours services for the local and international market. RTR Tours primarily promotes the natural beauty, culture and tradition of Cambodia. From its humble beginning, it now explores the world, offering more adventures and places to see and experience in Asia, Europe and other continents of the world. RTR Tours has grown to be one of the most esteemed travel companies in Cambodia. Internationally recognized and accredited as a full service travel company engaged in all aspects of the tourism industry. The company is continuously extending its horizon by affiliating with some of the world's best travel companies to give its clients superb and authentic travel experiences.  
+				<b> FAT Travels & Tours </b> is the leading company in the travel & Tour industry particularly in Siem Reap Province. This privately-owned company was founded in 2010 by <b> Mrs. Leng Dalila </b> ( called Amom). Through the years, the company has provided excellent travel and tours services for the local and international market. FAT Travels & Tours Tours primarily promotes the natural beauty, culture and tradition of Cambodia to local & foreign customers. From its humble beginning, it now explores the world, offering more adventures and places to see and experience in Siem Reap province and around Cambodia. The company is continuously extending its services, such as special Tour packages, Hotels booking, Flight booking, Bus ticket from Siem Reap province to others provinces in Cambodia, Thailand, Laos, Vietnam, Tourism Visa and Business Visa services.... We provide end-to-end serives to customers with smiles & Resibility.  
 			</p>
 			<!--<a href="#" class="button1">read more</a>-->
 		</div>

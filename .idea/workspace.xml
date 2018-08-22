@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49c13fd7-8063-4dc7-9109-e42bcdaa82ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/application/controllers/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/BookingTour.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/BookingTour.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Categories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Contacts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Destinations.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Destinations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Galleries.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Galleries.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Services.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Tour_types.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Tour_types.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/controllers/welcome.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/booktour.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/booktour.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/destination.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/destination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/model_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/model_admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/tour_type.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/tour_type.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/models/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/models/user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/about_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/about_us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/bookTour_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/bookTour_detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/bookTour_user_info.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/bookTour_user_info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/category_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/category_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/category_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/category_detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/chart.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/chart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/contact_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/contact_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/contact_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/contact_detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/destination_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/destination_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/destination_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/destination_detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/forget_password.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/forget_password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/gallery_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/gallery_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/gallery_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/gallery_detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/new_category.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/new_category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/new_destination.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/new_destination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/new_gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/new_gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/new_tour_type.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/new_tour_type.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/tour_type_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/tour_type_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/tour_type_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/tour_type_detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/user_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/user_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/admin/user_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/admin/user_detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/book_tour.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/book_tour.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/contact_us.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/contact_us.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/destination.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/destination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/destination_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/destination_detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/edit_personal_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/edit_personal_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/hot_tour.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/hot_tour.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/personal_info.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/personal_info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/register_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/register_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/samplebootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/samplebootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/service.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/service.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="688206155">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/assets/admin/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bootstrap/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webapplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webapplication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webapplication" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49c13fd7-8063-4dc7-9109-e42bcdaa82ca" name="Default Changelist" comment="" />
+      <created>1534909094610</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534909094610</updated>
+      <workItem from="1534909099605" duration="857000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="857000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24281392" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>

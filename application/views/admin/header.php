@@ -107,12 +107,26 @@
             </li>
           </ul>
         </li>
-        <!--<li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
-          <a class="nav-link" href="#">
-            <i class="fa fa-fw fa-link"></i>
-            <span class="nav-link-text">Link</span>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Service and Package">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
+            <i class="fa fa-fw fa-wrench"></i>
+            <span class="nav-link-text">Service and Package</span>
           </a>
-        </li>-->
+          <ul class="sidenav-second-level collapse" id="collapseComponents">
+            <li>
+              <a href="/webapplication/index.php/Services/serviceData/">Service</a>
+            </li>
+            <li>
+              <a href="/webapplication/index.php/Services/servicePackageData/">Package</a>
+            </li>
+            <li>
+              <a href="#">Flight</a>
+            </li>
+            <li>
+              <a href="#">Tour Guide</a>
+            </li>
+          </ul>
+        </li>
       </ul>
       <ul class="navbar-nav sidenav-toggler">
         <li class="nav-item">

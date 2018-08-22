@@ -16,16 +16,16 @@
 <h1>Our Address</h1>
 
 <figure class="google_map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3905.0811433171725!2d104.79655751415808!3d11.829590692106711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310eb0f7c91aff39%3A0x1936de455a636006!2sKampong+Luong+Market%2C+NR5%2C+Cambodia!5e0!3m2!1sen!2s!4v1526044781340" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qx-GNCAa5XTJaUquaq2Tz57WNxAoMFLo" width="600" height="450" frameborder="2" style="border:0px" allowfullscreen></iframe>
 </figure>
 
-<h3>Travel Guide</h3>
+<h3>Travel & Tour Agency</h3>
 
 <p>
-	8901 Marmora Road,<br>
-Glasgow, D04 89GR.<br>
-Telephone: +1 800 123 1234<br>
-E-mail: <a href="#">mail@bteamny.com</a>
+	Sivatha Street,Mondul II<br>
+Siem Reap City, Cambodia.<br>
+Telephone: +855 17 800 058<br>
+E-mail: <a href="mailto:fastairticket@gmail.com">fastairticket@gmail.com</a>
 </p>
 
 
