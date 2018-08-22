@@ -107,7 +107,7 @@ $(window).load(function() {
 <div id="main">
 
 <div class="top1 clearfix">
-<header><div class="logo_wrapper log"><a href="/webapplication/index.php/Users/home" class="logo"><img src="/webapplication/assets/bootstraps/images/logo.png" alt="" height="50" width="100" style="margin-bottom: 20 "></a></div></header>
+<header><div class="logo_wrapper log"><a href="/webapplication/index.php/Users/home" class="logo"><img src="/webapplication/assets/bootstraps/images/logo_.png" alt="" height="50" width="100" style="margin-bottom: 20 "></a></div></header>
 <div class="top2 clearfix">
 <div class="search-form-wrapper clearfix">
 <form id="search-form" action="/webapplication/index.php/Users/search" method="GET" accept-charset="utf-8" class="navbar-form" >
@@ -136,7 +136,13 @@ $(window).load(function() {
 					</ul>
 				</li>
 				<li><a href="/webapplication/index.php/Galleries/showGallery">gallery</a></li>
-				<li><a href="/webapplication/index.php/Services/service">services</a></li>								
+				<li class="sub-menu sub-menu-1"><a href="#">services</a>
+					<ul>
+						<?php foreach($serv as $r): ?>
+						<li><a href="/webapplication/index.php/Services/showServicePackage?id=<?php echo($r->serv_id)?>"><?php echo $r->serv_type; ?></a></li>	
+						<?php endforeach; ?>
+					</ul>
+				</li>								
 				<li><a href="/webapplication/index.php/Contacts/contact_us">contacts</a></li>
 				<?php if ($this->session->userdata('user_id')) { ?>
 				<li><a href="/webapplication/index.php/Users/personal_info"><img src="/webapplication/assets/bootstraps/images/user.png" alt="" height="20" width="30" style="margin-top: 20"></a></li>

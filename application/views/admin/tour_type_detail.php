@@ -17,7 +17,7 @@
     	</div>
 
         <div class="form-group">
-    		<label class="col-sm-3 control-label no-padding-right" for="form-people-amount"> People: </label>
+    		<label class="col-sm-3 control-label no-padding-right" for="form-people-amount"> People(PAX): </label>
     		<div class="col-sm-9">
  				<input type="number" id="people_amount" class="col-xs-10 col-sm-5" name="people_amount" value="<?php echo($row->people_amount); ?>">
  			</div>

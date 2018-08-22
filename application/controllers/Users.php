@@ -16,6 +16,8 @@ class Users extends CI_Controller {
 	public function category(){
 		$this->load->model('category');
         $data['result']=$this->category->get_cat();
+        $this->load->model('service');
+        $data['serv']=$this->service->get_serv();
         $this->load->view('header',$data);
 	}
 

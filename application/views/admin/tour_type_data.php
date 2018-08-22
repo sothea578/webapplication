@@ -20,7 +20,7 @@
                   <th>ID</th>
                   <th>Destination name</th>
                   <th>Tour code</th>
-                  <th>People amount</th>
+                  <th>People(PAX)</th>
                   <th>Status</th>
                   <th>Option</th>
                 </tr>
@@ -30,7 +30,7 @@
                   <th>ID</th>
                   <th>Destination name</th>
                   <th>Tour code</th>
-                  <th>People amount</th>
+                  <th>People(PAX)</th>
                   <th>Status</th>
                   <th>Option</th>
                 </tr>

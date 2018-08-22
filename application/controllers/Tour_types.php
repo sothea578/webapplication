@@ -34,8 +34,15 @@ class Tour_types extends CI_Controller {
     public function create_tour_type(){
         $this->load->library('form_validation');
         $this->load->model('tour_type');
-        $this->tour_type->add_tour_type();
-        redirect('Tour_types/show_tour_type_data');
+        $this->form_validation->set_rules('tour_code', 'tour_code', 'trim|required|min_length[1]|max_length[5]');
+        $this->form_validation->set_rules('people_amount', 'people_amount', 'required|min_length[0]');
+        if($this->form_validation->run() == FALSE){
+            echo '<script>alert("Incorrect data length!");</script>';
+        }
+        else {
+            $this->tour_type->add_tour_type();
+            redirect('Tour_types/show_tour_type_data');
+        }
     }
 
     public function tour_type_detail(){
@@ -49,9 +56,17 @@ class Tour_types extends CI_Controller {
 
     public function update_tour_type(){
         $id=intval($this->input->get('id'));
+        $this->load->library('form_validation');
         $this->load->model('tour_type');
-        $this->tour_type->update_tour_type($id);
-        redirect('Tour_types/show_tour_type_data');
+        $this->form_validation->set_rules('tour_code', 'tour_code', 'trim|required|min_length[1]|max_length[5]');
+        $this->form_validation->set_rules('people_amount', 'people_amount', 'required|min_length[0]');
+        if($this->form_validation->run() == FALSE){
+            echo '<script>alert("Incorrect data length!");</script>';
+        }
+        else {
+            $this->tour_type->update_tour_type($id);
+            redirect('Tour_types/show_tour_type_data');
+        }
     }
 
     public function delete_tour_type(){

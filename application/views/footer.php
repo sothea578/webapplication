@@ -5,8 +5,8 @@
 	<div class="bot1_title">follow us</div>
 	<div class="social_wrapper">
 		<ul class="social clearfix">
-		    <li><a href="#"><img src="/webapplication/assets/bootstraps/images/social_ic1.png"></a></li>
-		    <li><a href="#"><img src="/webapplication/assets/bootstraps/images/social_ic2.png"></a></li>
+        <!-- <li><a href="#"><img src="/webapplication/assets/bootstraps/images/social_ic1.png"></a></li>-->
+		    <li><a href="https://www.facebook.com/Fast-Air-Ticket-Tour-1630411597253277/" target=_blank;><img src="/webapplication/assets/bootstraps/images/social_ic2.png"></a></li>
 		    <li><a href="#"><img src="/webapplication/assets/bootstraps/images/social_ic3.png"></a></li>		    
 		    <li><a href="#"><img src="/webapplication/assets/bootstraps/images/social_ic4.png"></a></li>	
 		    <li><a href="#"><img src="/webapplication/assets/bootstraps/images/social_ic5.png"></a></li>	
@@ -26,12 +26,12 @@
 	<div class="bot1_title">Contacts</div>
 	<div class="bot1_txt1">
 		Call for more information:<br>
-		<span>1 800 123 4567</span><br>
+		<span>+855 17 800 058</span><br>
 
-		8901 Marmora Road,<br>
-Glasgow, D04 89GR.<br>
-Telephone: +1 800 123 1234<br>
-E-mail: <a href="#">mail@bteamny.com</a>
+		Sivatha Street,Mondul II<br>
+Siem Reap City, Cambodia.<br>
+Telephone: +855 17 800 058<br>
+E-mail: <a href="mailto:fastairticket@gmail.com">fastairticket@gmail.com</a>
 	</div>
 </div>
 </div>	
@@ -42,7 +42,7 @@ E-mail: <a href="#">mail@bteamny.com</a>
 <div class="container">
 <div class="row">
 <div class="span12">
-<div class="copyright">Copyright   © 2017 Travel Guide. All rights reserved.&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a href="#">Terms of Use</a>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<a href="https://gridgum.com/themes/tag/free-css-templates/">Free CSS Templates</a></div>
+<div class="copyright"><b>Copyright   © 2018  <a href="#">FAT Travels & Tours</a>. All rights reserved.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Terms of Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://gridgum.com/themes/tag/free-css-templates/">Free CSS Templates</a></b></div>
 </div>	
 </div>	
 </div>	

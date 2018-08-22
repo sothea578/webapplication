@@ -7,8 +7,9 @@ class destination extends CI_Model {
     }
 
     public function get_des() {
-      $this->db->select("des_id, des_name, des_pic, des_detail, des_price");
+        $this->db->select("des_id, des_name, des_pic, des_detail, des_price");
   		$this->db->from('destination');
+        $this->db->where('des_id !=','1',FALSE);
   		$query = $this->db->get();
   		return $query->result();
     }

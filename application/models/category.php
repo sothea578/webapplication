@@ -14,12 +14,12 @@ class category extends CI_Model{
     }
 
     public function get_category($id){
-    $this->db->select("cat_id, cat_name");
+      $this->db->select("cat_id, cat_name");
       $this->db->from('category');
       $this->db->where('cat_id', $id);
       $query = $this->db->get();
       return $query->result();
-  }
+    }
 
     public function show_cat_data(){
       $this->db->select("cat_id, cat_name");
