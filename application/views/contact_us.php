@@ -61,7 +61,6 @@ E-mail: <a href="mailto:fastairticket@gmail.com">fastairticket@gmail.com</a>
 <h1>Contact Form</h1>
     <p style="text-align: justify;">We have received your message and would like to thank you for writing to us. If your inquiry is urgent,     please use the telephone number listed above to talk to one of our staff. Otherwise, we will reply by email as soon as possible.</p>
     <b/>
->>>>>>> master
 <div id="note"></div>
 <div id="fields">
 	<form id="ajax-contact-form" class="form-horizontal" action="/webapplication/index.php/Contacts/create_contact/" method="post">
