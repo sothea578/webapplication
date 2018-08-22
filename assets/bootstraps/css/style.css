@@ -275,7 +275,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 #toTop:active, #toTop:focus { outline:none; }
 
 /* ============================= main layout ====================== */
-h1{ font-family:'Julius Sans One'; font-weight:400; font-size:26px; color:#2a2a2a; line-height:30px; padding:20px 0 20px 0; margin: 0;}
+h1{ font-family:'Julius Sans One'; font-weight:bold; font-size:26px; color:#2a2a2a; line-height:30px; padding:20px 0 20px 0; margin: 0;}
 
 h2{ font-family:'Julius Sans One'; font-weight:400; font-size:26px; color:#2a2a2a; line-height:30px; padding:20px 0 20px 0; margin: 0;}
 
@@ -321,7 +321,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 .date1 .caption{display: table;}
 
 .google_map{ position: relative; overflow: hidden; margin: 0 0 20px 0; padding: 5px; background: #fff; border: 1px solid #c5c5c5;line-height: 1px;}
-.google_map iframe{position: relative; width: 100%; height: 200px; border: none;}
+.google_map iframe{position: relative; width: 100%; height: 350px; border: none;}
 
 
 

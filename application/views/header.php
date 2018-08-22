@@ -107,7 +107,7 @@ $(window).load(function() {
 <div id="main">
 
 <div class="top1 clearfix">
-<header><div class="logo_wrapper log"><a href="/webapplication/index.php/Users/home" class="logo"><img src="/webapplication/assets/bootstraps/images/logo_i.png" alt="" height="50" width="100" style="margin-bottom: 20 "></a></div></header>
+<header><div class="logo_wrapper log"><a href="/webapplication/index.php/Users/home" class="logo"><img src="/webapplication/assets/bootstraps/images/logo_.png" alt="" height="50" width="100" style="margin-bottom: 20 "></a></div></header>
 <div class="top2 clearfix">
 <div class="search-form-wrapper clearfix">
 <form id="search-form" action="/webapplication/index.php/Users/search" method="GET" accept-charset="utf-8" class="navbar-form" >

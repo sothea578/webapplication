@@ -5,8 +5,8 @@
 	<div class="bot1_title">follow us</div>
 	<div class="social_wrapper">
 		<ul class="social clearfix">
-		    <li><a href="#"><img src="/webapplication/assets/bootstraps/images/social_ic1.png"></a></li>
-		    <li><a href="#"><img src="/webapplication/assets/bootstraps/images/social_ic2.png"></a></li>
+        <!-- <li><a href="#"><img src="/webapplication/assets/bootstraps/images/social_ic1.png"></a></li>-->
+		    <li><a href="https://www.facebook.com/Fast-Air-Ticket-Tour-1630411597253277/" target=_blank;><img src="/webapplication/assets/bootstraps/images/social_ic2.png"></a></li>
 		    <li><a href="#"><img src="/webapplication/assets/bootstraps/images/social_ic3.png"></a></li>		    
 		    <li><a href="#"><img src="/webapplication/assets/bootstraps/images/social_ic4.png"></a></li>	
 		    <li><a href="#"><img src="/webapplication/assets/bootstraps/images/social_ic5.png"></a></li>	

@@ -17,7 +17,7 @@
 
 <div class="thumb1">
 	<div class="thumbnail clearfix">
-		<figure class="img-polaroid"><img src="/webapplication/assets/bootstraps/images/logo_i.png" alt="" style="height: 100%; width: 100%;" ></figure>
+		<figure class="img-polaroid"><img src="/webapplication/assets/bootstraps/images/logo_.png" alt="" style="height: 100%; width: 100%;" ></figure>
 		<div class="caption" align="justify">
 			<strong>FAT's HISTORY</strong>
 			<p>
@@ -30,7 +30,7 @@
 			<strong>OUR MISSION</strong>
 			<p>
 				-   To provide personalized, responsive and excellent travel services to our clients that match the needs and budget of the clients.</br>
-				-   To build professional partnerships with local and international travel suppliers to make sure that we can offer the best deal for our clients.</br>
+				-   To build professional partnerships with local and international travel agent to make sure that we can offer the best deal for clients.</br>
 				-   To maintain integrity and professional courtesy in all our business transactions.
 			</p>
 			<!--<a href="#" class="button1">read more</a>-->
@@ -41,14 +41,14 @@
 </div>
 <div class="span4">
 	
-<h2>Our Address</h2>
+<h1>Our Address</h1>
 
 <div class="testimonial1">
 <div class="txt1">
-	<b>#EO, Sivatha Street, Mondul II Village, Sangkat Svay Dangkum, Siem Reap City, Kingdom of Cambodia</b>	
+<b>No.60, Sivatha (St.), Mondul 2 Village, Sangkat Svay Dangkum, Siem Reap City, Siem Reap, Cambodia</b>
 </div>
 <div class="txt2">
-	<span>Our Facebook Page</span><br><a href="https://www.facebook.com/Fast-Air-Ticket-Tour-1630411597253277/" target="_blank">Fast Air Ticket & Tour</a>
+    <span>Our Facebook Page: </span><b> <a href="https://www.facebook.com/Fast-Air-Ticket-Tour-1630411597253277/" target="_blank">Fast Air Ticket & Tour</a></b>
 </div>	
 </div>
 
@@ -62,7 +62,7 @@
 <div class="row">
 <div class="span8">
 	
-<h2>Why Choose US</h2>
+<h1>Why Choose US ?</h1>
 
 <div class="date1 clearfix">
 	<div class="c1">1</div>
