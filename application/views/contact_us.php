@@ -16,43 +16,28 @@
 <h1>Our Address</h1>
 
 <figure class="google_map">
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qx-GNCAa5XTJaUquaq2Tz57WNxAoMFLo" width="600" height="450" frameborder="2" style="border:0px" allowfullscreen></iframe>
-</figure>
-
-<h3>Travel & Tour Agency</h3>
-
-<p>
-	Sivatha Street,Mondul II<br>
-Siem Reap City, Cambodia.<br>
-Telephone: +855 17 800 058<br>
-E-mail: <a href="mailto:fastairticket@gmail.com">fastairticket@gmail.com</a>
-</p>
-
-
-<h2>Contact Form</h2>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.8172072730736!2d103.85333691417213!3d13.36163950981634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31101754895eb311%3A0x9c9c4b6c39b3301b!2sFast+Air+Ticket+%26+Tour!5e0!3m2!1sen!2skh!4v1534921820217" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3881.8163110760224!2d103.8544562!3d13.3616952!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31101754895eb311%3A0x9c9c4b6c39b3301b!2sFast+Air+Ticket+%26+Tour!5e0!3m2!1sen!2skh!4v1535188687154" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 </figure>
 
 <h1>OUR OFFICE</h1>
-    <table>
+    <table width="100%" border="0px">
     <tr>
-        <td>
+        <td width="50%">
             <h3><b>Fast Air Ticket & Tour (FAT)</b></h3>
             <p>
-	        #60, Sivatha Street,Mondul II Village,<br>
-            Sangkat Svay Dangkum, Siem Reap City, Siem ReapCambodia.<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;#60, Sivatha Street, Mondul II Village, Sangkat Svay Dangkum,<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;Siem Reap City, Siem Reap Province, Cambodia 17252.<br/>
             <br/>
-            Tel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +855 17 800 058<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +855 98 256 539<br/>
+            Tel:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+855 17 800 058 <br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +855 98 256 539 <br/>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +855 63 765 765<br/>
             <br/>
-            E-mail: <a href="mailto:fastairticket@gmail.com">fastairticket@gmail.com</a>
+            E-mail: <a href="mailto:fastairticket@gmail.com"> fastairticket@gmail.com </a>
             </p>
         </td>
         <td>
             <figure>
-                <img src="/webapplication/public/other_image/_nameCard.jpg" style="margin-left:100px; width:35%;">
+                <img src="/webapplication/public/other_image/_nameCard.jpg" style="margin-left:40px; width:45%;">
             </figure>
         </td>
     <tr/>
