@@ -1,4 +1,5 @@
 <div id="slider_wrapper">
+<img src="images/grad2.png" alt="" class="grad2">
 <div class="slider_bot">
 <div class="page_title">Gallery</div>
 <div class="breadcrumbs1">
@@ -10,7 +11,7 @@
 <div id="content">
 <div class="container">
 <div class="row">
-<div class="span12">
+<div class="span8">
 	
 <h1>Gallery</h1>
 

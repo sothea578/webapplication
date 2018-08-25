@@ -107,7 +107,7 @@ $(window).load(function() {
 <div id="main">
 
 <div class="top1 clearfix">
-<header><div class="logo_wrapper log"><a href="/webapplication/index.php/Users/home" class="logo"><img src="/webapplication/assets/bootstraps/images/logo_.png" alt="" height="50" width="100" style="margin-bottom: 20 "></a></div></header>
+<header><div class="logo_wrapper log"><a href="/webapplication/index.php/Users/home" class="logo"><img src="/webapplication/assets/bootstraps/images/logo_.png" alt="" height="50" width="100" style="margin-bottom: 20px"></a></div></header>
 <div class="top2 clearfix">
 <div class="search-form-wrapper clearfix">
 <form id="search-form" action="/webapplication/index.php/Users/search" method="GET" accept-charset="utf-8" class="navbar-form" >
@@ -145,7 +145,7 @@ $(window).load(function() {
 				</li>								
 				<li><a href="/webapplication/index.php/Contacts/contact_us">contacts</a></li>
 				<?php if ($this->session->userdata('user_id')) { ?>
-				<li><a href="/webapplication/index.php/Users/personal_info"><img src="/webapplication/assets/bootstraps/images/user.png" alt="" height="20" width="30" style="margin-top: 20"></a></li>
+				<li><a href="/webapplication/index.php/Users/personal_info"><img src="/webapplication/assets/bootstraps/images/user.png" alt="" height="50" width="100" style="margin-top: 20px"></a></li>
 				<?php } else { ?>
 				<li><a href="/webapplication/index.php/Users/register_login">Join Us</a></li>
 				<?php } ?>

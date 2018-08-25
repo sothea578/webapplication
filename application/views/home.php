@@ -59,10 +59,8 @@
 						<div class="thumbnail clearfix">
 							<a>
 								<figure>
-								<marquee behavior="alternate">
 									<img src="/webapplication/public/gal_img/<?php echo $row->picture; ?>" style="width: 270px; height: 220px;">
 									<em></em>
-									</marquee>
 								</figure>
 								<div class="caption">
 									<?php echo $row->gal_name; ?>
@@ -89,14 +87,14 @@
 	
 <h1><b>Welcome to traveler</b></h1>
 
-<h3>FAT TRAVELS & TOURS</h3>
+<h3>FAT TRAVEL & TOUR</h3>
 
 <div class="thumb1">
 	<div class="thumbnail clearfix">
 		<figure class="img-polaroid"><img src="/webapplication/assets/bootstraps/images/logo_.png" style="width: 208px; height: 100%;" alt=""></figure>
 		<div class="caption" align="justify">
 			<p>
-				<b> FAT Travels & Tours </b> is the leading company in the travel & Tour industry particularly in Siem Reap Province. This privately-owned company was founded in 2010 by <b> Mrs. Leng Dalila </b> ( called Amom). Through the years, the company has provided excellent travel and tours services for the local and international market. FAT Travels & Tours Tours primarily promotes the natural beauty, culture and tradition of Cambodia to local & foreign customers. From its humble beginning, it now explores the world, offering more adventures and places to see and experience in Siem Reap province and around Cambodia. The company is continuously extending its services, such as special Tour packages, Hotels booking, Flight booking, Bus ticket from Siem Reap province to others provinces in Cambodia, Thailand, Laos, Vietnam, Tourism Visa and Business Visa services.... We provide end-to-end serives to customers with smiles & Resibility.  
+				<b> FAT Travel & Tour </b> is the leading company in the Travel & Tour industry particularly in Siem Reap Province. This privately-owned company was founded in 2010 by <b> Mrs. Leng Dalila </b> ( called Amom). Through the years, the company has provided excellent travel and tours services for the local and international market. FAT Travels & Tours Tours primarily promotes the natural beauty, culture and tradition of Cambodia to local & foreign customers. From its humble beginning, it now explores the world, offering more adventures and places to see and experience in Siem Reap province and around Cambodia. The company is continuously extending its services, such as special Tour packages, Hotels booking, Flight booking, Bus ticket from Siem Reap province to others provinces in Cambodia, Thailand, Laos, Vietnam, Tourism Visa and Business Visa services.... We provide end-to-end serives to customers with smiles & Resibility.
 			</p>
 			<!--<a href="#" class="button1">read more</a>-->
 		</div>
