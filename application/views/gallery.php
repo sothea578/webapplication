@@ -1,4 +1,5 @@
 <div id="slider_wrapper">
+<img src="images/grad2.png" alt="" class="grad2">
 <div class="slider_bot">
 <div class="page_title">Gallery</div>
 <div class="breadcrumbs1">
