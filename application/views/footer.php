@@ -42,7 +42,7 @@ E-mail: <a href="mailto:fastairticket@gmail.com">fastairticket@gmail.com</a>
 <div class="container">
 <div class="row">
 <div class="span12">
-<div class="copyright"><b>Copyright   © 2018  <a href="#">FAT Travels & Tours</a>. All rights reserved.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Terms of Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://gridgum.com/themes/tag/free-css-templates/">Free CSS Templates</a></b></div>
+<div class="copyright"><b>Copyright   © 2018  <a href="#">FAT Travels & Tours</a>. All rights reserved.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Terms of Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#"></a></b></div>
 </div>	
 </div>	
 </div>	

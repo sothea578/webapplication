@@ -5,13 +5,6 @@
         <link rel="stylesheet" href="/webapplication/assets/register_login/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="/webapplication/assets/register_login/css/style.css">
 
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
         <!-- Favicon and touch icons -->
         <link rel="shortcut icon" href="/webapplication/assets/register_login/ico/favicon.png">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/webapplication/assets/register_login/ico/apple-touch-icon-144-precomposed.png">
@@ -144,6 +137,6 @@
         </div>
 
         <script src="/webapplication/assets/register_login/js/jquery-1.11.1.min.js"></script>
-        <script src="/webapplication/assets/register_login/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/webapplication/assets/bootstraps/js/bootstrap.js"></script>
         <script src="/webapplication/assets/register_login/js/jquery.backstretch.min.js"></script>
         <script src="/webapplication/assets/register_login/js/scripts.js"></script>

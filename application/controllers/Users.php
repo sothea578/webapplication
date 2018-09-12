@@ -5,12 +5,13 @@ class Users extends CI_Controller {
         parent::__construct();
         $this->load->library(array('session'));
 		$this->load->helper(array('url'));
+        $this->load->helper('menu');
         $this->load->model('user');
     }
 
 	public function index()
 	{
-		
+
 	}
 
 	public function category(){
