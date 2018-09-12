@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="/webapplication/assets/bootstraps/css/camera.css" type="text/css" media="screen">
 <link rel="stylesheet" href="/webapplication/assets/bootstraps/css/style.css" type="text/css" media="screen">
 <link rel="stylesheet" href="/webapplication/assets/bootstraps/css/isotope.css" type="text/css" media="screen">
+<link rel="stylesheet" href="/webapplication/assets/bootstraps/css/form-elements.css" type="text/css" media="screen">
 
 <script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.js"></script>  
 <script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.easing.1.3.js"></script>
