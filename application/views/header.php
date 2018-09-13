@@ -133,29 +133,41 @@ $(window).load(function() {
 		</a>
 		<div class="nav-collapse nav-collapse_ collapse">
 			<ul class="nav sf-menu clearfix">
-				<li class="<?php echo activate_menu('Users/home'); ?>"><a href="<?php echo base_url();?>Users/home">home</a></li>
-				<li class="<?php echo activate_menu('Users/about'); ?>"><a href="<?php echo base_url();?>Users/about" class="<?php if($this->uri->segment(1)=="menu-name"){echo "active";}?>">about</a></li>
+                <?php $uriMethod_name=$this->router->fetch_method(); ?>
+				<li <?php
+                if($uriMethod_name=="index"){
+                    echo "class='active'";
+                }else{
+                    echo "class=''" ; }
+                ?>>
+                    <a href="<?php echo site_url('Users/home');?>">home</a>
+                </li>
+				<li class="<?php echo activate_menu('about'); ?>"><a href="<?php echo site_url('Users/about');?>" class="<?php if($this->uri->segment(1)=="menu-name"){echo "active";}?>">about</a></li>
 				<!-- <li><a href="/webapplication/index.php/Users/hotTour">hot tours</a></li> -->
-				<li class="sub-menu sub-menu-1"><a href="<?php echo base_url();?>Destinations/showDestination">destinations</a>
+				<li class="sub-menu sub-menu-1"><a href="<?php echo site_url('Destinations/showDestination');?>">destinations</a>
 					<ul>
 						<?php foreach($result as $row): ?>
-						<li><a href="<?php echo base_url();?>Destinations/each_destination?id=<?php echo($row->cat_id)?>"><?php echo $row->cat_name; ?></a></li>
+						<li><a href="<?php echo site_url('Destinations/each_destination');?>?id=<?php echo($row->cat_id)?>"><?php echo $row->cat_name; ?></a></li>
 						<?php endforeach; ?>
 					</ul>
 				</li>
-				<li><a href="<?php echo base_url();?>Galleries/showGallery">gallery</a></li>
+				<li><a href="<?php echo site_url('Galleries/showGallery');?>">gallery</a></li>
 				<li class="sub-menu sub-menu-1"><a href="#">services</a>
 					<ul>
 						<?php foreach($serv as $r): ?>
-						<li><a href="<?php echo base_url();?>Services/showServicePackage?id=<?php echo($r->serv_id)?>"><?php echo $r->serv_type; ?></a></li>
+						<li><a href="<?php echo site_url('Services/showServicePackage');?>?id=<?php echo($r->serv_id)?>"><?php echo $r->serv_type; ?></a></li>
 						<?php endforeach; ?>
 					</ul>
 				</li>								
-				<li><a href="<?php echo base_url();?>Contacts/contact_us">contacts</a></li>
+				<li><a href="<?php echo site_url('Contacts/contact_us');?>">contacts</a></li>
 				<?php if ($this->session->userdata('user_id')) { ?>
-				<li><a href="<?php echo base_url();?>Users/personal_info"><img src="/webapplication/assets/bootstraps/images/user.png" alt="" height="20" width="30" style="margin-top: 20"></a></li>
+				<li class="sub-menu sub-menu-1"><a href="<?php echo site_url('Users/personal_info')?>"><img src="/webapplication/assets/bootstraps/images/user.png" alt="" height="20" width="30"></a>
+                    <ul>
+                        <li><a href="<?php echo site_url('Users/logout');?>">Log out</a></li>
+                    </ul>
+                </li>
 				<?php } else { ?>
-				<li><a href="<?php echo base_url();?>Users/register_login">Join Us</a></li>
+				<li><a href="<?php echo site_url('Users/register_login');?>">Join Us</a></li>
 				<?php } ?>
     		</ul>
 		</div>

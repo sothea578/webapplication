@@ -18,7 +18,7 @@
 <?php foreach($result as $row): ?>
 <div class="thumb3">
 	<div class="thumbnail clearfix">
-		<figure class="img-polaroid"><img src="/webapplication/public/des_img/<?php echo $row->des_pic ?>" alt="" style="width:210px;height:133px;"></figure>
+		<figure class="img-polaroid" style="width: 210px;"><img src="/webapplication/public/des_img/<?php echo $row->des_pic ?>" alt="" style="width: 100%; height: 133px;"></figure>
 		<div class="caption">
 			<p>
 				<strong><?php echo $row->des_name ?></strong>
