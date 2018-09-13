@@ -3,15 +3,7 @@
         <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
         <link rel="stylesheet" href="/webapplication/assets/register_login/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="/webapplication/assets/register_login/font-awesome/css/font-awesome.min.css">
-		<link rel="stylesheet" href="/webapplication/assets/register_login/css/form-elements.css">
         <link rel="stylesheet" href="/webapplication/assets/register_login/css/style.css">
-
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
 
         <!-- Favicon and touch icons -->
         <link rel="shortcut icon" href="/webapplication/assets/register_login/ico/favicon.png">
@@ -42,7 +34,7 @@
 	                        			<i class="fa fa-lock"></i>
 	                        		</div>
 	                            </div>
-	                            <div class="form-bottom">
+	                            <div class="form-bottom register-login-form">
 				                    <form role="form" action="/webapplication/index.php/Users/user_login" method="post" class="login-form">
 				                    	<?php if(! is_null($msg)) echo $msg;?>
 				                    	<div class="form-group">
@@ -91,7 +83,7 @@
 	                        			<i class="fa fa-pencil"></i>
 	                        		</div>
 	                            </div>
-	                            <div class="form-bottom">
+	                            <div class="form-bottom register-login-form">
 	                            	<?php echo validation_errors(); ?>
 				                    <form role="form" action="/webapplication/index.php/Users/user_register" method="post" class="registration-form">
 				                    	<div class="form-group">
@@ -145,6 +137,6 @@
         </div>
 
         <script src="/webapplication/assets/register_login/js/jquery-1.11.1.min.js"></script>
-        <script src="/webapplication/assets/register_login/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/webapplication/assets/bootstraps/js/bootstrap.js"></script>
         <script src="/webapplication/assets/register_login/js/jquery.backstretch.min.js"></script>
         <script src="/webapplication/assets/register_login/js/scripts.js"></script>
