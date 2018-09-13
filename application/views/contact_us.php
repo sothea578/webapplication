@@ -16,7 +16,7 @@
 <h1>Our Address</h1>
 
 <figure class="google_map">
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qx-GNCAa5XTJaUquaq2Tz57WNxAoMFLo" width="600" height="450" frameborder="2" style="border:0px" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.8172072730736!2d103.85333691417213!3d13.36163950981634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31101754895eb311%3A0x9c9c4b6c39b3301b!2sFast+Air+Ticket+%26+Tour!5e0!3m2!1sen!2skh!4v1534921820217" width="600" height="450" frameborder="2" style="border:0px" allowfullscreen></iframe>
 </figure>
 
 <h3>Travel & Tour Agency</h3>
@@ -27,12 +27,6 @@ Siem Reap City, Cambodia.<br>
 Telephone: +855 17 800 058<br>
 E-mail: <a href="mailto:fastairticket@gmail.com">fastairticket@gmail.com</a>
 </p>
-
-
-<h2>Contact Form</h2>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3881.8172072730736!2d103.85333691417213!3d13.36163950981634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31101754895eb311%3A0x9c9c4b6c39b3301b!2sFast+Air+Ticket+%26+Tour!5e0!3m2!1sen!2skh!4v1534921820217" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
-</figure>
 
 <h1>OUR OFFICE</h1>
     <table>
