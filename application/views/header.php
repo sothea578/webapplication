@@ -118,7 +118,7 @@ $(window).load(function() {
 </header>
 <div class="top2 clearfix">
 <div class="search-form-wrapper clearfix">
-<form id="search-form" action="<?php echo base_url();?>Users/search" method="GET" accept-charset="utf-8" class="navbar-form" style="float: right; margin-bottom: 30px; margin-top: 30px;" >
+<form id="search-form" action="<?php echo site_url();?>/Users/search" method="GET" accept-charset="utf-8" class="navbar-form" >
 	<input type="text" name="s" value='' placeholder="Search">
 	<a href="#" onClick="document.getElementById('search-form').submit()"></a>
 </form>	
@@ -134,16 +134,12 @@ $(window).load(function() {
 		<div class="nav-collapse nav-collapse_ collapse">
 			<ul class="nav sf-menu clearfix">
                 <?php $uriMethod_name=$this->router->fetch_method(); ?>
-				<li <?php
-                if($uriMethod_name=="index"){
-                    echo "class='active'";
-                }else{
-                    echo "class=''" ; }
-                ?>>
+				<li class="<?php echo activate_menu('Users/home'); ?>">
                     <a href="<?php echo site_url('Users/home');?>">home</a>
                 </li>
-				<li class="<?php echo activate_menu('about'); ?>"><a href="<?php echo site_url('Users/about');?>" class="<?php if($this->uri->segment(1)=="menu-name"){echo "active";}?>">about</a></li>
-				<!-- <li><a href="/webapplication/index.php/Users/hotTour">hot tours</a></li> -->
+				<li class="<?php echo activate_menu('Users/about'); ?>">
+                    <a href="<?php echo site_url('Users/about');?>" class="<?php if($this->uri->segment(1)=="menu-name"){echo "active";}?>">about</a>
+                </li>
 				<li class="sub-menu sub-menu-1"><a href="<?php echo site_url('Destinations/showDestination');?>">destinations</a>
 					<ul>
 						<?php foreach($result as $row): ?>

@@ -1,7 +1,6 @@
 <div id="slider_wrapper">
 <img src="images/grad2.png" alt="" class="grad2">
 <div class="slider_bot">
-<div class="page_title">Destinations</div>
 <div class="breadcrumbs1">
 <div class="breadcrumbs1_inner"><a href="/webapplication/index.php/Users/home/">Home Page</a>&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Destinations</div>	
 </div>
@@ -18,7 +17,7 @@
 <?php foreach($result as $row): ?>
 <div class="thumb3">
 	<div class="thumbnail clearfix">
-		<figure class="img-polaroid" style="width: 210px;"><img src="/webapplication/public/des_img/<?php echo $row->des_pic ?>" alt="" style="width: 100%; height: 133px;"></figure>
+		<figure class="img-polaroid"><img src="/webapplication/public/des_img/<?php echo $row->des_pic ?>" alt="" style="width: 100%; height: 133px;"></figure>
 		<div class="caption">
 			<p>
 				<strong><?php echo $row->des_name ?></strong>

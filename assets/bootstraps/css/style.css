@@ -272,9 +272,45 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 /* ============================= search-form ====================== */
 .search-form-wrapper{ padding-right: 30px;}
 .navbar-form { float: right; position:relative; z-index: 11; margin:0px 0px 0 0 ; padding: 0; }
-.navbar-form input { width: 190px; height: 21px; font-size: 12px; line-height: 21px; color:#878787; background: #1f1f1f; border: none; border-right: 3px solid #1da5a6; margin: 0; padding: 5px 50px 5px 10px; border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; -moz-box-shadow: inset  0px 3px 20px 3px  #1f1f1f; -webkit-box-shadow: inset  0px 3px 20px 3px  #1f1f1f; box-shadow: inset  0px 3px 20px 3px  #1f1f1f; }
-.navbar-form input:focus {color: #fff; border-color: #fff;-moz-box-shadow: inset none; -webkit-box-shadow: none; box-shadow: none;}
-.navbar-form a {text-decoration: none; margin: 0; display: inline-block; width: 42px; height: 28px; background: url(../images/search.png) left top no-repeat; position:absolute; right:0; top: 1px; }
+.navbar-form input {
+    width: 190px;
+    height: 21px;
+    font-size: 12px;
+    line-height: 21px;
+    color: #878787;
+    background: #1f1f1f;
+    border: none;
+    border-right: 3px solid #1da5a6;
+    margin: 0;
+    padding: 5px 50px 5px 10px;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-box-shadow: inset 0px 3px 20px 3px #1f1f1f;
+    -webkit-box-shadow: inset 0px 3px 20px 3px #1f1f1f;
+    box-shadow: inset 0px 3px 20px 3px #1f1f1f;
+}
+
+.navbar-form input:focus {
+    color: #878787;
+    border-color: #fff;
+    -moz-box-shadow: inset none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-form a {
+    text-decoration: none;
+    margin: 0;
+    display: inline-block;
+    width: 42px;
+    height: 28px;
+    background: url(../images/search.png) left top no-repeat;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    color: #000000;
+}
 .navbar-form a:hover { background-position: right;}
 
 /* ============================= toTop ====================== */
@@ -335,7 +371,7 @@ transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -webkit-trans
 
 
 /* ============================= thumbnail ====================== */
-.img-polaroid{position: relative; padding: 5px; background: #fff; border: 1px solid #c5c5c5;box-shadow: none;-moz-box-shadow: none; -webkit-box-shadow: none;}
+.img-polaroid{width: 210px; position: relative; padding: 5px; background: #fff; border: 1px solid #c5c5c5;box-shadow: none;-moz-box-shadow: none; -webkit-box-shadow: none;}
 .thumbnail .caption{padding: 0; color: #6f6b68}
 
 .thumb1 {margin-bottom: 20px;}

@@ -1,7 +1,6 @@
 <div id="slider_wrapper">
 <img src="images/grad2.png" alt="" class="grad2">
 <div class="slider_bot">
-<div class="page_title">Services</div>
 <div class="breadcrumbs1">
 <div class="breadcrumbs1_inner"><a href="/webapplication/index.php/Users/home/">Home Page</a>&nbsp;&nbsp;&nbsp;>&nbsp;&nbsp;&nbsp;Services</div>	
 </div>
@@ -20,7 +19,7 @@
 <div class="span4">
 <div class="thumb1">
 	<div class="thumbnail clearfix">
-		<figure class="img-polaroid"><img src="/webapplication/public/serv_img/<?php echo $row->pkg_pic ?>" alt="" style="width:210px;height:133px;"></figure>
+		<figure class="img-polaroid"><img src="/webapplication/public/serv_img/<?php echo $row->pkg_pic ?>" alt="" style="width: 100%; height: 133px;""></figure>
 		<div class="caption">
 			<p>
 				<strong><?php echo $row->pkg_name ?></strong>
