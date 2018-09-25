@@ -11,15 +11,12 @@
 <form role="form" method="get">
 <div id="content">
 <div class="container">
-<div class="row">
 <div class="span12">
-	
-<h1></h1>
 
 <div class="row">
 	<?php foreach ($result as $row): ?>
 	<div class="span5">
-		<figure class="img-polaroid"><img src="/webapplication/public/serv_img/<?php echo $row->pkg_pic ?>" alt="" style="width:500px; height:297px;"></figure>
+		<figure class="img-polaroid"><img src="/webapplication/public/serv_img/<?php echo $row->pkg_pic ?>" alt=""></figure>
 	</div>
 	<div class="span7">
 		<strong class="txt1"><?php echo $row->pkg_name ?></strong>
@@ -31,7 +28,6 @@
 </div>
 
 </div>
-</div>	
 </div>	
 </div>
 </form>
