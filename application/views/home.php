@@ -59,10 +59,8 @@
 						<div class="thumbnail clearfix">
 							<a>
 								<figure>
-								<marquee behavior="alternate">
 									<img src="/webapplication/public/gal_img/<?php echo $row->picture; ?>" style="width: 270px; height: 220px;">
 									<em></em>
-									</marquee>
 								</figure>
 								<div class="caption">
 									<?php echo $row->gal_name; ?>

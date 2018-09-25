@@ -164,7 +164,7 @@ class Services extends CI_Controller {
     }
 
     public function upload_serv_pic(){
-        $config['upload_path']          = '/webapplication/public/serv_img/';
+        $config['upload_path']          = '../public/serv_img/';
         $config['allowed_types']        = 'gif|jpg|png';
         $config['max_size']             = 100;
         $config['max_width']            = 1024;
@@ -172,7 +172,7 @@ class Services extends CI_Controller {
 
         $this->load->library('upload', $config);
 
-        if ( ! $this->Destinations->upload_des_pic('pic')){
+        if ( ! $this->Services->upload_serv_pic('pic')){
             $error = array('error' => $this->upload->display_errors());
             $this->load->view('new_package', $error);
         }
