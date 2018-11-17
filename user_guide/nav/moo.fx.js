@@ -7,14 +7,14 @@ v(1.0.2)
 */
 
 //base
-var fx = new Object();
+var fx = {};
 fx.Base = function(){};
 fx.Base.prototype = {
 	setOptions: function(options) {
 	this.options = {
 		duration: 500,
 		onComplete: ''
-	}
+	};
 	Object.extend(this.options, options || {});
 	},
 
@@ -56,7 +56,7 @@ fx.Base.prototype = {
 		clearInterval(this.timer);
 		this.timer = null;
 	}
-}
+};
 
 //stretchers
 fx.Layout = Class.create();

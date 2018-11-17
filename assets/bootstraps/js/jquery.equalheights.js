@@ -2,8 +2,8 @@ $(function(){
 	$(".minheight1").each(function(){
 		$(this).contents().wrapAll("<div class='box_inner'></div>");
 	})
-})
-$(window).bind("resize",height_handler).bind("load",height_handler)
+});
+$(window).bind("resize",height_handler).bind("load",height_handler);
 function height_handler(){
 	if( $(window).width()>=768 ){
 		$(".minheight1").equalHeights()
@@ -26,4 +26,4 @@ function height_handler(){
 			}
 		)}
 	}
-)(jQuery)
+)(jQuery);

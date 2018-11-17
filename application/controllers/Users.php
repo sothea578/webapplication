@@ -78,7 +78,7 @@ class Users extends CI_Controller {
   			$seid=$this->session->userdata('user_id');
         	$data['result']=$this->user->get_user($seid);
         	$this->load->model('booktour');
-        	$data['book']=$this->booktour->ger_booktour_info_this_user($seid);
+        	$data['book']=$this->booktour->get_booktour_info_this_user($seid);
         	$this->category();
         	$this->load->view('personal_info',$data);
         	$this->footer();

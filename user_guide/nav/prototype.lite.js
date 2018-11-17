@@ -16,24 +16,24 @@ var Class = {
 	  this.initialize.apply(this, arguments);
 	}
   }
-}
+};
 
 Object.extend = function(destination, source) {
   for (property in source) {
 	destination[property] = source[property];
   }
   return destination;
-}
+};
 
 Function.prototype.bind = function(object) {
   var __method = this;
   return function() {
 	return __method.apply(object, arguments);
   }
-}
+};
 
 function $() {
-  var elements = new Array();
+  var elements = [];
 
   for (var i = 0; i < arguments.length; i++) {
 	var element = arguments[i];
@@ -53,7 +53,7 @@ function $() {
 
 document.getElementsByClassName = function(className) {
   var children = document.getElementsByTagName('*') || document.all;
-  var elements = new Array();
+  var elements = [];
 
   for (var i = 0; i < children.length; i++) {
 	var child = children[i];
@@ -67,12 +67,12 @@ document.getElementsByClassName = function(className) {
   }
 
   return elements;
-}
+};
 
 //-------------------------
 
 if (!window.Element) {
-  var Element = new Object();
+  var Element = {};
 }
 
 Object.extend(Element, {

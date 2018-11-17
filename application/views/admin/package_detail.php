@@ -83,5 +83,5 @@
     }).done(function (html){
       $(".response").html(html);
     });
-  };
+  }
 </script>

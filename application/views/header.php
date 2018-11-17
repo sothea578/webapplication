@@ -1,113 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Travel GUIDE</title>
-<meta charset="utf-8">
+    <title>Travel GUIDE</title>
+    <meta charset="utf-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Your description">
-<meta name="keywords" content="Your keywords">
-<meta name="author" content="Your name">
-<link rel="icon" href="/webapplication/assets/bootstraps/images/favicon.ico" type="image/x-icon">
-<link rel="shortcut icon" href="/webapplication/assets/bootstraps/images/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your description">
+    <meta name="keywords" content="Your keywords">
+    <meta name="author" content="Your name">
+    <link rel="icon" href="/webapplication/assets/bootstraps/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/webapplication/assets/bootstraps/images/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="/webapplication/assets/bootstraps/css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/webapplication/assets/bootstraps/css/bootstrap-responsive.css" type="text/css" media="screen">    
+    <link rel="stylesheet" href="/webapplication/assets/bootstraps/css/camera.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/webapplication/assets/bootstraps/css/style.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/webapplication/assets/bootstraps/css/isotope.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/webapplication/assets/bootstraps/css/form-elements.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="/webapplication/assets/admin/css/sb-admin.css">
 
-<link rel="stylesheet" href="/webapplication/assets/bootstraps/css/bootstrap.css" type="text/css" media="screen">
-<link rel="stylesheet" href="/webapplication/assets/bootstraps/css/bootstrap-responsive.css" type="text/css" media="screen">    
-<link rel="stylesheet" href="/webapplication/assets/bootstraps/css/camera.css" type="text/css" media="screen">
-<link rel="stylesheet" href="/webapplication/assets/bootstraps/css/style.css" type="text/css" media="screen">
-<link rel="stylesheet" href="/webapplication/assets/bootstraps/css/isotope.css" type="text/css" media="screen">
-<link rel="stylesheet" href="/webapplication/assets/bootstraps/css/form-elements.css" type="text/css" media="screen">
-<link rel="stylesheet" href="/webapplication/assets/admin/css/sb-admin.css">
+    <script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.js"></script>
+    <script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="/webapplication/assets/bootstraps/js/superfish.js"></script>
 
-<script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.js"></script>  
-<script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="/webapplication/assets/bootstraps/js/superfish.js"></script>
+    <script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.ui.totop.js"></script>
 
-<script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.ui.totop.js"></script>
+    <script type="text/javascript" src="/webapplication/assets/bootstraps/js/touchTouch.jquery.js"></script>
+    <script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.isotope.min.js"></script>
 
-<script type="text/javascript" src="/webapplication/assets/bootstraps/js/touchTouch.jquery.js"></script>
-<script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="/webapplication/assets/bootstraps/js/camera.js"></script>
+    <script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.mobile.customized.min.js"></script>
 
-<script type="text/javascript" src="/webapplication/assets/bootstraps/js/camera.js"></script>
-<script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.mobile.customized.min.js"></script>
+    <script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.caroufredsel.js"></script>
+    <script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.touchSwipe.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // camera
+            $('#camera_wrap').camera({
+                //thumbnails: true
+                autoAdvance: true,
+                mobileAutoAdvance: true,
+                //fx					: 'simpleFade',
+                height: '51%',
+                hover: false,
+                loader: 'none',
+                navigation: true,
+                navigationHover: false,
+                mobileNavHover: false,
+                playPause: false,
+                pauseOnClick: false,
+                pagination: true,
+                time: 7000,
+                transPeriod: 1000,
+                minHeight: '200px'
+            });
 
-<script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.caroufredsel.js"></script>
-<script type="text/javascript" src="/webapplication/assets/bootstraps/js/jquery.touchSwipe.min.js"></script>
-<script>
-$(document).ready(function() {
-	// camera
-	$('#camera_wrap').camera({
-		//thumbnails: true
-		autoAdvance			: true,		
-		mobileAutoAdvance	: true,
-		//fx					: 'simpleFade',
-		height: '51%',
-		hover: false,
-		loader: 'none',
-		navigation: true,
-		navigationHover: false,
-		mobileNavHover: false,
-		playPause: false,
-		pauseOnClick: false,
-		pagination			: true,
-		time: 7000,
-		transPeriod: 1000,
-		minHeight: '200px'
-	});
+            //	carouFredSel
+            $('#slider3 .carousel.main ul').carouFredSel({
+                auto: {
+                    timeoutDuration: 80000
+                },
+                responsive: true,
+                prev: '.prev3',
+                next: '.next3',
+                width: '100%',
+                scroll: {
+                    items: 1,
+                    duration: 1000,
+                    easing: "easeOutExpo"
+                },
+                items: {
+                    width: '350',
+                    height: 'variable',	//	optionally resize item-height
+                    visible: {
+                        min: 1,
+                        max: 4
+                    }
+                },
+                mousewheel: false,
+                swipe: {
+                    onMouse: true,
+                    onTouch: true
+                }
+            });
+            $(window).bind("resize", updateSizes_vat).bind("load", updateSizes_vat);
 
-	//	carouFredSel
-	$('#slider3 .carousel.main ul').carouFredSel({
-		auto: {
-			timeoutDuration: 80000					
-		},
-		responsive: true,
-		prev: '.prev3',
-		next: '.next3',
-		width: '100%',
-		scroll: {
-			items: 1,
-			duration: 1000,
-			easing: "easeOutExpo"
-		},			
-		items: {
-        	width: '350',
-			height: 'variable',	//	optionally resize item-height
-			visible: {
-				min: 1,
-				max: 4
-			}
-		},
-		mousewheel: false,
-		swipe: {
-			onMouse: true,
-			onTouch: true
-			}
-	});
-	$(window).bind("resize",updateSizes_vat).bind("load",updateSizes_vat);
-	function updateSizes_vat(){		
-		$('#slider3 .carousel.main ul').trigger("updateSizes");
-	}
-	updateSizes_vat();
+            function updateSizes_vat() {
+                $('#slider3 .carousel.main ul').trigger("updateSizes");
+            }
 
-}); //
-$(window).load(function() {
-	//
+            updateSizes_vat();
 
-}); //
-</script>		
-<!--[if lt IE 8]>
-		<div style='text-align:center'><a href="https://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg"border="0"alt=""/></a></div>
-	<![endif]-->    
+        }); //
+        $(window).load(function () {
+            //
 
-<!--[if lt IE 9]>
-  <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
-<![endif]-->
+        }); //
+    </script>
+    <!--[if lt IE 8]>
+    <div style='text-align:center'><a
+            href="https://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img
+            src="http://www.theie6countdown.com/images/upgrade.jpg" border="0" alt=""/></a></div>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+    <![endif]-->
 </head>
 
 <body class="main">
 <div id="main">
-
 <div class="top1 clearfix">
 <header>
     <div class="logo_wrapper log">
@@ -162,5 +164,5 @@ $(window).load(function() {
 	</div>
 </div>	
 </div>
-</div>	
+</div>
 </div>

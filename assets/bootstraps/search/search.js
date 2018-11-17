@@ -4,7 +4,7 @@ $(function(){
 		,input=$('input[type=text]',form)
 		,results=$('#search-results').height(0)
 		,src='search/results.php'
-		,ifr=$('<iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" allowTransparency="true"></iframe>')
+		,ifr=$('<iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" allowTransparency="true"></iframe>');
 	
 	if(results.length)		
 		ifr		
@@ -13,10 +13,10 @@ $(function(){
 			})
 			.appendTo(results)
 		,input
-			.val(decodeURI(s))
+			.val(decodeURI(s));
 	
 	window._resize=function(h){		
 		results
 			.height(h)
 	}
-})
+});
