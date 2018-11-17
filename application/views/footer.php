@@ -28,7 +28,7 @@
             </div>
             <div class="span3">
                 <div class="bot1_title">Contacts</div>
-                <div class="bot1_txt1">
+                <div class="bot1_txt1" style="font-weight: normal;">
                     Call for more information:<br>
                     <span>+855 17 800 058</span><br>
 
