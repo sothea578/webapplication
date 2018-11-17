@@ -15,7 +15,7 @@ class booktour extends CI_Model{
   		return $query->result();
 	 }
 
-    public function ger_booktour_info_this_user($id){
+    public function get_booktour_info_this_user($id){
         //$d = intval($id);
         $this->db->
             select("b.id_bookTour, b.id_user, b.id_tour_type, b.id_cat, b.id_des, b.status, b.booking_date, c.cat_id, c.cat_name, d.des_id, d.des_name, d.des_price, t.tour_type_id, t.tour_code")

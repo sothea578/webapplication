@@ -64,9 +64,9 @@ foreach($files as $file){
 </head>
 <body>
 <script type="text/javascript">
-;(function(){	
-	document.body.onload=resize
-	window.onresize=resize
+    (function () {
+        document.body.onload=resize;
+	window.onresize=resize;
 	
 	function resize(){
 		parent._resize(document.getElementById('search-results').offsetHeight)

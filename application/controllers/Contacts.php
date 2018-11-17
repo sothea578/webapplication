@@ -13,10 +13,10 @@ class Contacts extends CI_Controller {
 
     public function contact_us(){
 		require_once(APPPATH.'controllers/Users.php'); //include controller
-        $aObj = new Users();  //create object 
+        $aObj = new Users();  //create object
+        $foot = new Users();  //create object
         $aObj->category(); //call function
 		$this->load->view('contact_us');
-        $foot = new Users();  //create object 
         $foot->footer(); //call function
     }
 
