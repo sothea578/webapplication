@@ -122,7 +122,7 @@
                 <form id="search-form" action="/webapplication/index.php/Users/search" method="GET"
                       accept-charset="utf-8" class="navbar-form">
                     <input type="text" name="s" value='' placeholder="Search">
-                    <a style="right: unset;" href="#" onClick="document.getElementById('search-form').submit()"></a>
+                    <a href="#" onClick="document.getElementById('search-form').submit()"></a>
                 </form>
             </div>
             <div class="menu_wrapper clearfix">

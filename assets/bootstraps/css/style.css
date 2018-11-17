@@ -811,6 +811,7 @@ footer {
 }
 
 .navbar-form input {
+    float: right;
     width: 190px;
     height: 21px;
     font-size: 12px;
@@ -1606,13 +1607,11 @@ h6 {
     }
 
     .navbar-form {
-        float: left;
+        float: right;
     }
 
     .search-form-wrapper {
-        padding-right: 30px;
-        padding-left: 30px;
-        padding-top: 20px;
+        padding: 30px;
     }
 
     .menu_wrapper {
