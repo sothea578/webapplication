@@ -1,49 +1,55 @@
 <div class="content-wrapper">
-<?php foreach($tour as $row): ?>
-<form role="form" action="/webapplication/index.php/Tour_types/update_tour_type?id=<?php echo($row->tour_type_id)?>" method="post" class="create-form">
-<div class="space-4">
-    	<div class="form-group">
-    		<label class="col-sm-3 control-label no-padding-right" for="form-tour-code"> Tour code: </label>
-    		<div class="col-sm-9">
- 				<input type="text" id="tour_code" class="col-xs-10 col-sm-5" name="tour_code" value="<?php echo($row->tour_code); ?>">
- 			</div>
-    	</div>
+    <form role="form"
+          action="<?php echo base_url() . 'Tour_types/update_tour_type?id=' . $tour->tour_type_id ?>"
+          method="post" class="create-form">
+        <div class="space-4">
+            <div class="form-group">
+                <label class="col-sm-3 control-label no-padding-right" for="form-tour-code">Code</label>
+                <div class="col-sm-9">
+                    <input type="text" id="tour_code" class="col-xs-10 col-sm-5" name="tour_code"
+                           value="<?php echo($tour->tour_code); ?>">
+                </div>
+            </div>
 
-    	<div class="form-group">
-    		<label class="col-sm-3 control-label no-padding-right" for="form-tour-code"> Destination name: </label>
-    		<div class="col-sm-9">
- 				<input type="text" id="des_name" class="col-xs-10 col-sm-5" name="des_name" value="<?php echo($row->des_name); ?>">
- 			</div>
-    	</div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label no-padding-right" for="form-tour-code">Destination</label>
+                <div class="col-sm-9">
+                    <input type="text" id="des_name" class="col-xs-10 col-sm-5" name="des_name"
+                           value="<?php echo($tour->des_name); ?>" readonly>
+                </div>
+            </div>
 
-        <div class="form-group">
-    		<label class="col-sm-3 control-label no-padding-right" for="form-people-amount"> People(PAX): </label>
-    		<div class="col-sm-9">
- 				<input type="number" id="people_amount" class="col-xs-10 col-sm-5" name="people_amount" value="<?php echo($row->people_amount); ?>">
- 			</div>
-    	</div>
-        
-        <div class="form-group">
-        <label class="col-sm-3 control-label no-padding-right" for="form-tour-type-status"> Status </label>
-        <div class="col-sm-9">
-            <select class="col-xs-10 col-sm-5" name="status" value="<?php echo set_value('status');?>" id="status">
-                <option class="form-tour-type-status form-control">pending</option>
-                <option class="form-tour-type-status form-control">processing</option>
-                <option class="form-tour-type-status form-control">finished</option>
-            </select>
-        </div>
-        </div>
-</div>
+            <div class="form-group">
+                <label class="col-sm-3 control-label no-padding-right" for="form-people-amount">People(PAX)</label>
+                <div class="col-sm-9">
+                    <input type="number" id="people_amount" class="col-xs-10 col-sm-5" name="people_amount"
+                           value="<?php echo($tour->people_amount); ?>">
+                </div>
+            </div>
 
- <div class="space-4"></div>
- <div class="clearfix form-actions">
- 	<div class="col-md-offset-3 col-md-9">
- 		<button class="btn btn-info" type="submit">
- 			<i class="ace-icon fa fa-check bigger-110"></i>
- 			Update
- 		</button>
- 	</div>
- </div>
-</form>
-<?php endforeach; ?>
+            <div class="form-group">
+                <?php
+                $options = array(
+                    'pending' => 'Pending',
+                    'processing' => 'Processing',
+                    'finished' => 'Finished',
+                );
+                ?>
+                <label class="col-sm-3 control-label no-padding-right" for="form-tour-type-status">Status</label>
+                <div class="col-sm-9">
+                    <?php echo form_dropdown('status', $options, $tour->status); ?>
+                </div>
+            </div>
+
+            <div class="space-4"></div>
+            <div class="clearfix form-actions">
+                <div class="col-md-offset-3 col-md-9">
+                    <a class="btn btn-primary" href="<?php echo base_url() . 'Tour_types/show_tour_type_data' ?>"
+                       role="button"><i class="ace-icon fa fa-arrow-circle-left bigger-110"></i> Back</a>
+                    <button class="btn btn-info" type="submit">
+                        <i class="ace-icon fa fa-check bigger-110"></i> Update
+                    </button>
+                </div>
+            </div>
+    </form>
 </div>

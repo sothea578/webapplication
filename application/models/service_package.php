@@ -34,26 +34,14 @@ class service_package extends CI_Model{
       	$this->db->from('service_package');
       	$this->db->where('pkg_id', $id);
       	$query = $this->db->get();
-      	return $query->result();
+      	return $query->first_row();
     }
 
-    public function add_serv_pkg(){
-        $data = array(
-            'pkg_name' => $this->input->post('name'),
-            'pkg_desc' => $this->input->post('desc'),
-            'pkg_pic' => $this->input->post('pic'),
-            'id_serv' => $this->input->post('id_serv')
-        );
+    public function add_serv_pkg($data){
         $this->db->insert('service_package', $data);
     }
 
-    public function update_package($id){
-        $data = array(
-            'pkg_name' => $this->input->post('name'),
-            'pkg_desc' => $this->input->post('desc'),
-            'pkg_pic' => $this->input->post('pic'),
-            'id_serv' => $this->input->post('id_serv')
-        );
+    public function update_package($id, $data){
         $this->db->where('pkg_id', $id);
         $this->db->update('service_package', $data); 
     }
