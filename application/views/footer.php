@@ -21,7 +21,7 @@
                 <ul class="ul0">
                     <?php foreach ($result as $row) : ?>
                         <li>
-                            <a href="/webapplication/index.php/Destinations/each_destination?id=<?php echo($row->cat_id) ?>"><?php echo $row->cat_name ?></a>
+                            <a href="<?php echo base_url() . 'Destinations/each_destination?id=' . $row->cat_id ?>"><?php echo $row->cat_name ?></a>
                         </li>
                     <?php endforeach; ?>
                 </ul>
@@ -47,7 +47,8 @@
         <div class="row">
             <div class="span12">
                 <div class="copyright"><b>Copyright © 2018 <a href="#">FAT Travels & Tours</a>. All rights reserved.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a
-                                href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Terms of Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a
+                                href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Terms of
+                            Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a
                                 href="https://gridgum.com/themes/tag/free-css-templates/">Free CSS Templates</a></b>
                 </div>
             </div>

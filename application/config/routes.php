@@ -1,4 +1,4 @@
-<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 /*
 | -------------------------------------------------------------------------
 | URI ROUTING
@@ -40,8 +40,17 @@
 
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
-$route['Users'] = 'Users/home';
+$route['/'] = 'Users/home';
 $route['Admin'] = 'Admin/login';
+$route['Galleries/show_gallery_data/(:num)'] = 'Galleries/show_gallery_data';
+$route['Admin/user_data/(:num)'] = 'Admin/user_data';
+$route['Contacts/contact_data/(:num)'] = 'Contacts/contact_data';
+$route['Admin/bookTour_user_info/(:num)'] = 'Admin/bookTour_user_info';
+$route['Categories/show_category_data/(:num)'] = 'Categories/show_category_data';
+$route['Destinations/show_destination_data/(:num)'] = 'Destinations/show_destination_data';
+$route['Tour_types/show_tour_type_data/(:num)'] = 'Tour_types/show_tour_type_data';
+$route['Services/serviceData/(:num)'] = 'Services/serviceData';
+$route['Services/servicePackageData/(:num)'] = 'Services/servicePackageData';
 
 
 /* End of file routes.php */
